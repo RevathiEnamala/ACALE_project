@@ -1,0 +1,1944 @@
+{
+  "phase": 5,
+  "algorithm": "context_aware_adaptive_packet_batching",
+  "batch_size": 5,
+  "metrics": {
+    "packet_count": 100,
+    "transmissions_before": 100,
+    "transmissions_after": 20,
+    "normal_packets_batched": 100,
+    "immediate_packets": 0,
+    "payload_bytes": 90824,
+    "estimated_energy_before_mj": 109.0824,
+    "estimated_energy_after_mj": 29.0824,
+    "estimated_energy_saved_mj": 80.0,
+    "estimated_energy_saving_percent": 73.339,
+    "energy_model": {
+      "fixed_energy_per_transmission_mj": 1.0,
+      "energy_per_payload_byte_mj": 0.0001,
+      "status": "illustrative_simulation_estimate_not_hardware_measurement"
+    }
+  },
+  "batches": [
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAA",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000001",
+            "timestamp": "2026-01-01T00:00:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "zsyyXhFmZAL7MR/9fp1jwB54Z9Xj6zGM6vZPzdW8YlGSQ4ADBl+SGJOPFVu7TL0SLZ8VKqsTUbQ1qjD3ulirhoAKM60gE+EDuT2BGEGgQ9QOfnceSjfWZZXWE4HEA1fEr+ZTE1oZG6ekA35sGPAzoFieJZXEIy25aWdhjDzoFNu/BwrbJJ4jGJ/xal9DBg9wtqe9jnvTYIl8R+J/xLy6aUFLri1iXqVU0g11YFKl1GnZjGswdYthIlqCjmv4X6FDJbpXvEVrjnx/E+6oe9yPUKiSdzOKUNpthX3PYhp+ppRGHFM6+g/80FcTPrltmFkLJhaH8tCIlbrSkOoHm1TCjZA5tBHV8zABUHN1glP31VcweUuOvNqPmSZDdi1U9nKWGQyHfljWqLhQyFoeEXszaZ/k+GmFio8c69iI5qRmiF5GqtkZW9GW6aSknmEEoqiK/AWVo41Aq/Jk2Bp1mQvO/LHELT601kyjUDAnOzTd+qMH3S1uYPdMeqAGWeP8gOXIN6Z3pv+40Xxfnf6ZDCOYMPfieA=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAB",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000002",
+            "timestamp": "2026-01-01T00:01:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "MzNlbUtDHHqfd+uHYeC3iOvxkd0KAHXyQvigInPzbZIcjYAXwZBEHzpScbT1CG/owuGnY2MFdNYblfQapgxemDjJD1kMek39aOAof44nQ52YU0xPxqELnK48k0a4styHTQq+iDXOItzNed2rIk5ep3ZFE4faFXsUScEBQTWPeao1R6P1LWnsYi83Trm+br1jqEYM9dO6rtidRQqHq2b85SAPRuSphgWYEZCT9b3l47OKuObUtDXN9N7yXl+XH0KWqtmURUuGVTzxBwYgwqbsbXY10fAnfV10xifEH4MIzi5Ob68OSCebSQ5G/Upos6f2KiV2fL8fGYV89m4g1at7D6BYzJjK4eHtGDAFT/M/kSuC51dqMQdpzfuNJM6jQDf3D3MtrA1GK1gI7IisqiIFCnKxwZRPvgea/Mcg5AxltK355kVXDT03DdM/tf8ZcgCmGpQnYaXrDMKLMwwH9NoNIzdIMR2E++/7hymPP8Ap4SNWzfYKmi//nlHACLj0SC8M7Di0aBi30XrLY9aDlLxPikS23pGRxg=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAC",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000003",
+            "timestamp": "2026-01-01T00:02:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "W5lUuzmzp5mLU7jqKWka2dnxWePXKCBEb8zINtZTRWi3tMpb/iPg3f+HTasEyEVpmCcUc4zJUdWk3/0a4beCZbEFBh0OVekEmOlza3Sj8dldWPG/+QNZF1OpAS5xmiPZs1shk7r84uJBAzaUPnktJlgwTM8vXRsQeEaqvuQge2E7FHBrAkHipr/hYEm+oPjyBzlBA0/j+QCjxjoDVBIwfg3Cm3rcDtPGgoeIXfdP7ej28wtkDSupY48+uN3/i8FSyLW+b8HNjgh/0b6q0euXIrjOMQ6TprK/Ktw2GX+3H84JOAxLnkZlupa8iHXfwmb+dxpM/TZ9LSSTTujLIrkW7yiNQos+EFrzBGvilYuFqLw5/oR/iZ1Q1QeqkukHCENNpeu98mk5QRF242OWi91eOGj1IEJIiXFYi3v5cu+Y7QFdfvSR9Qmg0hIfceDvnFOtqxkUdvT6ELFWyLpaiSIuI8Ppy7Rczmwdfkaf4B5t+1TQ6HtLXVCZN91bJxJrQSpjTUgs3CL5m5yrfPJxJF/bxDjpQ0sSy40Q"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAD",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000004",
+            "timestamp": "2026-01-01T00:03:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "ZYIZ+XXasyvav24mHrEXyp11gU9BlzgR5DBJXbxQJPj71AkA6sOdJZJgLI7wiHONbH049EYCqzc9bsZg6qw1n0I9VvrIoQbg47k2JDt2XkCBWZvWRa84LXAbGlpfoCHUQ1MiOu2T4WuDozLgptYgVw/3LurrK5WI83mky0KVAyGjfrrfjDK3i2Y4+E8ShoJyQWyl3uOvE/UMRS4IBRawrI8yA8xxs/iow/zDfRDxBJsVNdD/GN3Mvjs5YJw9Dyf6qLBVva0te0dPtznvSprwGY1/4itxP9Rj0+Z4ybfermLWndT290a3hHFNLBc1mQj+rkW93w2S6nuwHbmdTqTfbkGAZlTnxO7GFqBBaMtgc9bRQO2fhaDwd85w0gOUbE5orrZXS2RXf7Wk1c5g62cobwbMIGklfJ+ArxvIA1M8xvt+oS9fBaUuhstY6HkP+keFw+gQWOlKR3da2MnLEnKE3iRIrDJL0O2A1RCwsdZ3BGnAplJtWAP/wCL261f0fT96LoSHs98TBCBn9rQ41eTeB3xRl0Z0i/fs"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAE",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000005",
+            "timestamp": "2026-01-01T00:04:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "msHHHcZ7CcO4PJsZ5X/n1AogwWZ+8dFhX741nbc9oMmjY8ymiWPaG0bMmv/p0OQis4KqCKYNCA3pp8w9jGU1A+iw1OXKLsaI+9ivQg0w5uiG8tXQZLXpWL+X0fAoorzsZqeFiAxXZN9uMzANrcy1Dth6KOYTDpYDdF5DNsHjoOeFQahMB0S6xtrlDaCUXhBvSXDbRz5T7LSWv44su9SUBuJlYa1Cy8fyRzFcwLbL3JdHwNZ/VZ4QB/D/bktxkWmgo+BbnsVghaKr2Wd5rLEy4z0tRRLE8FK4dMYqomN29jMYe3lE6k/bvJvrAVe0blj1CPH5fbuPvJG9jMdyN5Y9Q+Af6qxAMe+n3zCodw6R15BPlt+NlxzRugMmEg7n5i+l5kaceAxwMT66zJYWWBkdM5tcCv6gmKrxmaVjY5L1f+IoYuUbLOzYTUR3zQYRJDi08QYLk9PLffxdGaqzURKRcYq7Nv3goTX2EomoamWaMmZU6O3oN/RsqfQzv6RgtePhOKIlwejgHdPdvUrNekOm8K+NhRFjhNo="
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAF",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000006",
+            "timestamp": "2026-01-01T00:05:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "hOV+SA3tv06tE9TowPxdVuREKPTo1rwXwPpMn63Rp8ua0XZs/2SJAW9tambuYsdCvvM8Wos51n8nun+DRxfJG1g4bTzSC0LZYP0fK5rsA85/Gs8VmJKUCN77Ef09pjU8VFZSCfubELlswYMWQQz8eFSqOIO8X4v++wMSPAYPNUxg+2Cfm01CCIATbJYqICFAFudk9gxMCQ0ItPqCjxcJIOjjRmbkz83MnBX51Q4ulmB78iduUSE6edooKwwd7rUJfWnYaLbjYzLv7Y8S13Z1MIm9oWLfLdA4W71J0gVWW+/TWJfzbM2MR3BNJRdwS8k3TopJRa+HYbn/zoSMpoTuERhr53yIdTZUH/A70gtZUJnNmcHdUHMsayTDwHReBYtDJPO4Sc/bohlG9KliGIKGujMckgj8PBvv8Rn/UX0TBBj2mB4sGz/jzcoxcMuyWLpZF/HOV3wQodTfDosNvBPo5im7YhblqKPr+ZQHtyKsLXhv+RUgND88lNrdHgzOP7lP4by8CgMum9UyBmKvuIxHNCNA8up3zjfdYg=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAG",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000007",
+            "timestamp": "2026-01-01T00:06:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "KRdhfLBVrel0i8RLgmqcuUcy1ySgNBopa4ulOQwDPpYowPgwcn5/mhffD/5J2vCP+74HQIeBT/Uge2NEUgVUkA29mdQ/vboVOJOP2zWHw+1om1MxtJLls6nNg5Zye89B5qZimWtC+wmN6TonCkm79HvQu5aUKJFm3IOx1LZP6jXB9oQ5AZBm5sg+PPjGj9jdIeLV/Q4TOUTwZyS4V56D2Kumf6BdOOQTttrm3IuItk/yH+wOUs6DqU7OfrAVzJf30xgYqJdvERl8Zbl0Y/2bBcfl/ELho2y6BG3WGYrGP+b5wgI4ToLftC+Wldf6kPBoY+45ufF4Vw46srRByPYvkpnAPvxcq2b6j4DhPE52W5ewa6ahHs23vlmArVAV8RVCUFsRgUhK5qbYCTMJGXVvDxKWuXxvDjPJ1MGBTuoucynaeww/Hw7xSPPXKaRbXtNBZzI0K1YbrS953LA8T5TL88Nr3RhP8XPvY38wEr2CqY9Eovb+uXgzRFVYxBKsFiYoe8w6xBAdZfV6ZV4BveZGXAG5yY1yquKN"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAH",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000008",
+            "timestamp": "2026-01-01T00:07:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "RpBNfk8l8L/SQ93465EC8kxAbTABlSNIzaa25Gvj/oZ2khUBgrCHsiG9eoDmAMdpj1MODqhBDlLl/whNuoEBL7o5218/1jdU1AS+4BhpMs/1isUtyUGqplYLYF8DPjH17L9wmeItDCwW55kjmpT3WcolCHVMx5tJDyBS5PVikDLSsPhGQ31cPqSCXTdy1TmaKD35u5Zf9PAtdLNf7asAgT/eEnFjPxMohIVr+V0XvGOUMDlut6UeT9xi41OZiIEWck91KHb5kk2MI8q5blQAceNFqDIjKLuknHEfurMrvbKanNq/TmLRgTOT9qxgYpAw+9WxQmmApz6y/tjuYL5olD/y/LM/C8/0rB4f0Y6a5uuGU0AshfMaSMJgfQg7mB1u1IfTwp/065rZcygueWIdQBDgb2HF/fCUrW7mPv8a1utUJMskMWRXn4C4g3EmLRgdgZaSVfR/oSMtnx3xiCGd+x7HVLbGqvzE9KTlUbc4sXBimXrqpFVjosal5bLW/U6SekdJdFykLLVqg5twBjt/0KHRB78vdA/u"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAI",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000009",
+            "timestamp": "2026-01-01T00:08:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "rKHva0gzGORZnlrNUEnJSnBfYQmWM45JTjge4xtZXVFIau0Zc6D2tlYb2fbzBi7At13pCXVi+BrTP0AnU0jEncfwxVr6dim7rzJ6VnjAnRKrteLN7n113myzOmCk6r+Ec0exbtcXhF0KIsLVnUxHt3CfVq67wvDKBacZ1Xb2hgO3yYsDfjufBV0rK9eekWIRCkHAT7X/xp8TYghZlog2SBgdn8wtNqixcbv+/0fzgmU0/70aYwNS+V5JzRmKwrN+y9qHSBg+YVY/PjAPXCNZIr697u3noU5nt9uK7VUfNqhX/C6RsQyrNX4u/GyCbMi9bl0Kc4fksWvWT3rw4s6w9kxAeIBf1P0SE0fTG2YPDQ4NVx5AUR5vbcmYUBijl+7YmnDyWt6e7f7bnrh9eEE7tsrIuHxj02tuDdizM5V6UYvrQGVtxcDBRqeiz+Z2hOrXDiLGmbDe0qFuPptJB7nUr0knPnUxiMZlWp/GQckjvt23Zp9pRkxnjehhrfk+PH/1mwu7Rx94dwv0cQCqnEEEEBq6ktKG3Q=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAJ",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000010",
+            "timestamp": "2026-01-01T00:09:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "ZsGyQxBOcfQEgP4XoODmt3X+OwcvJtknV8sMJtQAuYFPjMLs6T3AUL31gZ4hxUG+nnP4ksK8JoVcU8ba1E9+FJptAX7L2ST7nTNx90ZN8FvbPhvRGMGmo5pFWX/y8y0gs0GnQHBV2hbgGN5CoZvHq/6tlQLwZDLL73jaN763cRPnD/ajSh6rumcZL12iST5KSe3ZH8QTkDuNh7Hd9XmyQ8bI8PDE8uZmMA87b/3sWwi3Y5kCW4m1SZaBEH7XVb+ZeLXFv7Zaw4QIAqSn+/mIFvFekRc2y3CukIiTv377YCGxy5t3buDgYVH7aUbBvj3QsnQ96SkFniUzBnzcIVcFUQPleJlrDERpa6pqm6CMha/e85er9gKBnr77bz/kQIe4yjMrBMVbDRBHT/ItLE8h7nnjXEmUeo7IvcOpGDfqDwoGv26gRe6VbJpP+zeN8hEO/tITSUWa7P+enMr0eGX0Jh7rleXE0a6D5eQScZR+jAN+GYuP0Wq7yIgvgCpb0xsHNSJwKKk/+UXbzxNIB7zbzOfoJ4aevegs"
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAK",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000011",
+            "timestamp": "2026-01-01T00:10:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "t80ULDiAlHqyfkk0bDA3ggm7Knjhh8e8hlbPkiaogE/BNR5SvsLaBJ1H30TMQKPn0n+XQNl86iPmJeBQF5a9w35t5Yxfim5dR71AjWzQ6OC/SclkzMzzHq6fogRWm2RPEn9Au8JHb/Cd7eVVZAPdW/GFFfiDpgLhON23WRvU+o9Hy1zYlzvQryVxUM7qMUAfX6eIW1ofKgwibPB5vYW3Lp3ywgcoGuhd2+pFDP6aMFkATnPAUkKviHVqQe9PwbjAVHmHUz8cf5INnWE8ElqmvaLDhsoHjkzMbPepnpeYU5rUoPKnlzcFgKnURn/Bs9AX+CVRcR2y8u7Y/HlmkheJ7jkUop+w7+gp3XvIOXEQ0jN9qLk0dn10IUyD89EPgTa1P4HVsQfvhPseYwn9NN1p2CXIqXOasNg/DvaxakFuFKVCWOGSWZeXixPAgc4OKoUbpFzXzVqyuyYAYNJkd6BS9bS7AydWO6pqeSloFAIUGdSmCQmMsouQ3I0BBbRG20NMDEkpJ6YT+3LUgQboU4NGc2bb9uDgKPZq"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAL",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000012",
+            "timestamp": "2026-01-01T00:11:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "ZQoH14eno1lx8vmsRkvfsDiKDUgYx5rvEtMQ6ra+m1ny+fmYxvKPg8dW0VKW1JpIUAtTT16o3c1IpAVAkp088gEa++xUKmvjdwQZv6edvweeA4w9NbH+M7YyFAfSD4H3PBU5pKd2yVLx7kU7kAXx0sXu/xxBpXoAow1PqqyHQYGrjQ6s9Mn0wyPagQes6b7ZXkhn1Z9ia8PVmaRESnj6aNX5h1hvamBj4JPc0mdfifsKyuHlw/4xUNFyYGYLycxJ/Yb6j4d0mcpxxl+6aNRImL0clg0V1Dsl6Ny9oydKb32PxkJhJHgJADN2hruvGsGc8CFsuf7HgR7WUVyn49HgcfH8rvaqFoMHKEBCDSIWpH9Ofuq6qKlf+HTHJeO9jXM4bQzbgFLk+5pgBsYgco7QJznubXWzrJHmAWKCMBNr8A6MD4o2dvWTgiOCtznjca/pQVaRfzIL9PFHPqid40N+OZr+lgcigkhP7nRjn3UL9AhvKu2mZFHd/M6pqcoAQHzZqTmCfB+c7vfM6RZ/cy72rUGQzGH/WsBt"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAM",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000013",
+            "timestamp": "2026-01-01T00:12:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "wPQJNHwuHmukkBh1dP2zrFfaQlB6psUctfF7M2hGuLzEEwqlYEGakl6FoO7Lm032UnPeuy1EgLS7ZRi+yAOgM/ioi4UJIWGzx3nZoBRqV8MzZ11FbzTV14chTzt7dwxaRrUjA+XLaYButL9et2ZU+mJFEsnQMThXfh8tq39wqX5dGTKFE9r2jjsDoWClAzAkuLc4ykcvQ7qqtOSeQ4ch2CucsntxYTrW6k3b1bs+Gy397HByldndr4c9n5ggRXt/vnYoO2qGjXn9th0wbhVZhxyjn8wTjMmMf1C8tr4XSyzAFvSfYkkShT3gkCdp3l1EoKJ1a+ZNC4f4h+EgjOXsGMsNwnAiYFE1xIHVbkSLB/eCAHEEEHIJWuIiyC9/MkicgH7JME5A5N7pHDcMUxxIb1eONfUJqcNaRaozjnrEl81BvrIcWYHzoxzetkHLVfHxyaZX5NO94VryP9wCPgX9qiyROLRcXg1Teq1sHwzr5Z0AMIFtg3bLZRn8T5h6S1uF//aw64mTIvH6m3I2hL8JEeigwpMDZbn7"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAN",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000014",
+            "timestamp": "2026-01-01T00:13:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "uN7JLhBiEzgZb4ZoedY82Zr7QxN5OCvUs0DMGdboSHpLBkiYeaKK27cs+IWZ3/h7WNjp/+Hgqya+hOiRlPYj2v5N4kTyqlfXVDUo/6xoyhCNd1CvucUfXRsVJHEjW+HRS4iNNKoGQBcCpKaFqu/Ts82i0xx6nBDJ110DW304ugycp1OCgMKT7m5Ifs3h8XNIdRIVJCj76y2qKtY+UTq96XSKVG13L5Fde8g26eoLUHwc8BuUDZ5CwQ56G8lzPW6vTVgS5UPHyZT2lJp0K5VVwpV8LYf+GivRyhxzrw6P2ygg8uawetEQaoqwTfUxt6iYN3d6ZR+GlBco79zgbUHOBbl6GuHBg7i4iEj91NkWIrzZLGcB/w9+/uT4AcGw05UDSju9oTUF60b9Bdc/QNcm45qyhPp4aK6jslZjufkQQY07gUkTIBnSh+0Mw/jtkTDauG5IjePZAoZbpcBKU57eBkVXQ5mUuYp/AImtWLR93ozjbwc8qxh430/Bino6LOqvufsf34Jgf0XgjWQRLrauky1c6FPM+wU="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAO",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000015",
+            "timestamp": "2026-01-01T00:14:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "W2ITAzqyGhFi4cMlWbRebz2Dh11ea2ZluEXrcn0foYMeGcuOJHNcgFCWN1AdsZ8cYyLHvpw6N32WI+U+RCs8d59dKB8mBmq/JgGxmXuplbUNzuH6kJSyGn/viMCv2urPJHAkH8kiv/AJVQIRQHrztgYkCRi+EaMTYY9YqRVu2r4HEz6kn3mlLD25dXlWlc2W8Be3mVG/iPR+3UTp3zsO2p9ZprjjN0SgJLU3nXj0DoiVAslmuqblSNGbt3wg+Y+jlG3nM3eK1DZYeGuaEiXV4VTG8LhtL213DjlcJjoP/dN/BIzyLWg68RTypuhhH41HsgG9v5VEncFZMnEpqOmt6X4I+VM5ZCDoe2MQ/caTp3yes6J/KYdfppR7SBvqg/VsranYaQ90lEXEblEky7qor6dZD4AjChIt9NrPYNa5ftcxkPB0vYXKcQoZQNdnfOVugoc+ZBjByF0ecLyUP3WDpDdx1Z+J7vU6dnQJqYRFx1EYcGsr9YO01rtiNhE9zATdwOlsq6S2xk3C0dveka2MUfpe4P+TYQ=="
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAP",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000016",
+            "timestamp": "2026-01-01T00:15:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "2tKGvZ/UtfI6fvSkxrwqa4NIJQPakCvv0PlkNta1jmIQIwNVf//M45miUu7A/qptNaKxNFGkw2V04Fopsw0iOsOVzuAnOoBS45+hyO4Ci6wTG4yHlShx6zRsJYo+ybuaf7CpZWIYIdxjxsiWiDSfMdq4ZPTtMhvGuUF0EqaarQ4I1oV2veMSnnbseZsbE3Xvg54W3tdOQfJ7BBAnseetIMd3eVdgI+pYW6knnd6Z0mtiLPUL8gUQUvgUy+3vgGWtXArC+vxG4+pfJxdeZX7Os2CrabL0rxZYYBl3L++kBRw+BX3DKNULaHQ+C3VPhXXi4i3s/lZTHVrwzKonQGHu5GbACqPifZcHDDDxch9gWgn5vCBB8ht2hPp/i4GZZurvo9Qas0jPppkWljFbb3sQRny1KGkRii2RKPIGyirRgq46MR6p4rLCe721rBTa9rwdIqsS4yA7RTMwzp5p/CV0sVvWX1rF4pKOPRYJY5U9NlIEShT3YO8FRPzEEhJxpWVACcveNde7UXuAPq0O8PHJEHRzhVaTDbYl"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAQ",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000017",
+            "timestamp": "2026-01-01T00:16:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "nJFA6Eet4WNzl436SVhao5kgk475UGGJkQOq/7VKYCbq7SU+e4hhyRjTqXP0latw13Y4dr01TiRkuVYFeZcKhKCOivvJgRhTibkvzScyRaOkXJOJv9mlRnDA8+ON/KakdVda0B+v8TEdRbTj6nwYVWS/Mz+1Vr9zvgdOx6VlKmRb2fqDBSVDKjIJnOtBAGmJN8qvCIMCnxui8KJcJWtkuEj4rAGSkqNNp/HqoHdKoHJYqV9EINf7U7CZitgvBjpB8wCgq3v/PdnVdAVM7cuy4k5CjocmKKHs0JYQDzbeTUh1pzzHIhQL2tYTqkfzsJ29UZ/PCx3yyruxUjzkOOvLCPeFlNGMRo2IlnBcpvcdHO+LN1PbTEWCrxkRD76jG0etCMpHqL2yuPGN933F0mwdMwjtmSiUK53zyhzanUjv6nNSieW9ONNq1fp8WBy36q019oAUnmt2HHvs3zXrLct7KLUiZoSH8x04cF3bjyMTtKEsOT7RHSCTQM2TQ7/zDR/uG23dqTQFp5mviudkTzMTZIhVXzPxeks="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAR",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000018",
+            "timestamp": "2026-01-01T00:17:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "k7ie3upNG/a/fxA/7FSUqY3UY1n8wx4V2LzaTlbS327mOM+EH3efsv5A+obvxOGwpuiw/9PDK2VB1pYbvc76XUIcra/Q1GKwxhY0SjVEcM7/9REd+fYa7gJ341cWyDxmPbQftdU+cpJHknnAfGDsfvbkK1sPiVDEBKR5EQBRIw26OxK1Lh+j5d0TBAj2FeAla0vrT+olT0CqbCtrfVDuE5VP/dtz1z/JdroMtsBxWfssYUBdg/0ZTsVkFZ7SSHHh97GAd70rHaofao9lhfzvHhMMY5a3XfdX558sYWeGdmTME0jqIR+CfADF19LQ2XTI8fxpOwOSQP13XkD8k8sK/dM/inoncTt6vY+pJzlH+YWRBKVmLaztziLkqgVxwixY0Svt4T03UbeXB+GxHFdx7YF4ZSkUFO8MIvG4XzqSaKyS9ICnqSeL9WPxK/XgCFOL83Ll8lPSK5Rd2WCKwdLTqQjbTg1negln/wgM8y5rP7dcL286mCpbBooXKA/Bq555+ypSIqPYMIfoJMc5FFcbQEr7Z6omko0="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAS",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000019",
+            "timestamp": "2026-01-01T00:18:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "af7vUV1qqYG4GqioUROBbhD336P9UzhRsg7r0AObJk4gr+KZmtN2bhulXz9+wXcR4kPi2wlunMITDzI1HqJaXN7bKdhzcUj1P/OUw4QrzSO5qG/NA4l8T8jhuRMQC6RraX/m3pWShLt2jwBOLcuylU3dhqpmfCSBfx4OWfTrCysPX8K3NZs1mRHPaHDXufxknNb8a95TJhxDry8SoIYsoQb+oAXzQy0XpRDZJZ3yQ6JbyG+xo52WwJP0Xmj2Q3x7ct1RtYgr6lRp+6jbbHnlssVLcDZifOl2FlYPXlte4lbE7W1kxlov8Hw+qHyPX6ZyG2eXuYeRf5eFK613n1nvu8zGZMdGRJNulIrojA2NM3BxrMX18f3Fy1HG597jmZTx/LoiUwm+UgXL9zh7dROkHpFjQWZWlakclPT5BIaPoALYCj55Bd1GzonXBbyC1I+xkEJwTvtRO3pKyGRBoAorBdkGl6A9E2EKOMVailbvSzOPZAnZIwXtWcVD8eunyzadyvQyurKzmr92N0RmUOoNyIHwHeJaqdWq"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_001",
+          "key_epoch": 1,
+          "key_fingerprint": "3e12c65fe27ba19a",
+          "nonce": "v0qLlAAAAAAAAAAT",
+          "aad": {
+            "device_id": "SENSOR_001",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_001",
+            "reading_id": "SENSOR_001-R000020",
+            "timestamp": "2026-01-01T00:19:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "zoX1/Pk6NEZMIVj9Nj7ME4iYXraIo8XAya9On2R11cBggGBK20OQkTJcKx2WP9/GuJ8pAQWFd33LmXAOn6xSmw7HWdR1Y+g7SH+mdJJBWGRHUr1nDG3r/dMfwIWXojfEmPaXIiQd2Rr5pMhvZ7QvBlS57RmNW+kFVpTKqSFQGWNpEol7uWK9sDPwlrpTPR99cMpX6gKQZZZunSeJUHZ7kOJtiHK+82P7w6EBpZatY1Ks8RQdP23FvgflMUgaMYfobDtqsK1pJgot+038Yuog6fHh9J0EAVeLTlpLLs1E3G1sRC9xx8x2StrTSNMb4tnHZRKB1r2ne0PmxuclZjujBThDHn9WpRzwQjetGBI/hBk77tr+UVM5/I0OSEyCYcQd45xjDjcSvG9pCA3LfCJDxw0p5mvGFaSP3nVQI3ro0aDI+1QdBTmmXDCI2JPpDOA2JTox9IwmR9h3pQbSzMrbKyosmSs8C7mxvy3gK8DIOchPTRS8Jy4oh8wtmxA4qXqt1Xo4dCN7175UuXiyXmpSIYteAn67zzV1"
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAA",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000001",
+            "timestamp": "2026-01-01T00:00:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "mGVNf54NdYqZVNpJox8OYM77QxKVbuZE/BUfbvLSC9syhxFJQlBCTvSOlAOlV+c4q3NxvqcV600PgpOFxz+/Apom7Ds1V1rMt1ZUhtAyfHuD0ukdbSUIMQ4gCxoYDUnM50DuzFGK5tIwzKGHlH7CXLeMS62WsbNkZA3QznDL/cTviDqKpuczuNjL5j8VRiUDGSc3R20tLtfO/NFgELXEOkJA0Pg9QhdXGeCPK8Y4kHqG3NkBzfG6u/aE35n9rrcMhCJuun2eH53zkqmHYUzjcgmufRw/qv6uHyD6hYREKRyuxuhiLdF2QUKR/gzjLVjTdrDlzSybiRe3N2SCBhsSARHpPgeSAh2HfnPd8EC1gzZekqjM26RRJAiq6Nmz+klcpPOX9QoPTAfJSqK7E+MnmpO2qVV2yWtK3spvswpJ5I4sQS9Qn6X0c4Ie+V9trVxF/8l/e7xwgqZXjjqsqLkgrVuNrrqret19Cq/5E18MHgnISST4lEJnKHSUMeiX1S8z3H6kN8vWIDXxdGf9N2afqysi+tE="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAB",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000002",
+            "timestamp": "2026-01-01T00:01:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "iqaW0bMrOZfzYJebfIfHnK0gZgv3g234htSahMWtvj+ytk/B4AYvJrjG9Bu1yb+mfIBD2q7ucZ5deZ3IgWOHTuA2a4DA7QitZW1KMLZXln84K7UrwCgj5C6uASrERBtuh08w13KhFNoyakzWMosuoczOwxNhhGllRjbpZ8VaNBUyFfWxxGjuyw7abEbuYQDEYtwAJqAwfU5CZGX18bBOkxWmozFf8Jq4hrL0RdaFn3Ca87+tbheCLhY0pN8K+pMLtsE4EviVzjHAMTBNJqTzqPAbucP+ej4fyVRZaARxFjwOb+Be54SoSFemIEj5hTRz9ZDSUeXDQuQHjs5ha3j2UufNy7hPP+6EtOwzYB5R7qmV1l5QMnDHOK24n6EoS3/xg5CHTPI2ghBDyCA157N2c6PbGyjYLXO06xRkF7Yd24fpUBOk1/sseLWeXV7BlZ+oQm0blnOD8vZ5D46Yx93B002qJBvErjdQP5/w1sJTe+pwtVZ/PlbN/LcHdlFj4oxJcVWPZLplZM1mhuZOh/w1gqPlXkhD+w=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAC",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000003",
+            "timestamp": "2026-01-01T00:02:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "txO5uPjHdLDwBBc2QkWYJUCuMCu6/NsrVlhMg7xwVIxmtDukbMroc2FZC2T0rFUm8v+u9eOg1901Mlj0G7UmtyEN/wTxHo95FJD2x9J86voNr/ILaGa+EMgSRF5kaSDKYsmA+BMErvEp1eqUnckdw7uwuANbJshS5UVFe2lpJ4tFnerast6cBW7hJELxOBdly2CHSS2CcEjlUNLsHnsQW81ex8S9iQBunF+hsIYcUYR9ku/2spBHs89M35CDcEOoHlJrgPfz+t/qPPzNGynuhlHgp2R4d0zoL8gKPHzBmQWpWzhfeSX1lRhwpqBXcRIGxBEdqUZ4vkCQpzkKyyXozrmP9BuiXmODEE+RkTEZDKqKh13MPPeBlpEu27BnzAk3cl5WeTfo4DhGpf5CO6moXPz0mhx2lqawp6COZE3Lv3O2/NbU2Su4X/8A4JWpkImhXbZ6w+qLxi5dHfTat4ECNqSxFDrs0pzXRfaTLjPVqkRv5u0cy9H5fVzEcDXVURMhzmLXV7rPrFIMfGtB2COyinoW0UBGteVV"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAD",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000004",
+            "timestamp": "2026-01-01T00:03:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "tHmWRfpjSv+aZkeK81kptDTH+BsjvIH/FBWjfbHdI48bj+sKB7k61bPkAK8PtJzNWP/gaQtJUMLrc15P89ONMQ8IqRLdlwunUd0Wp3fSx4YOM1d4mM4tCxR7OS5vRM1O3NnIe0UKYJJYJzxe5AMccbRqkPMtGbjiK/rrdh6qjgos6hjpT8WJSHiWaIiN0Ma93BXqBI4yF9/kr97ITo+WSyaULnBfoLiDkncVVBijacIe/PIcg2gCA+EFy039tVUK2jeXgCgcKNvEDuqYlins587XqZJfEQ81iEGGUJKW9qZja2wEU49XJ5FLU2B1dF6ExVyJE2lri+7oMfDqDkORy/hczaDmRACUUnuHH9nGa4+NABFBdm4rDXqzAWtVWD/2xdm55cwoMIY4Xhd9f+48tveIrhZ/2AhGGJPuf+2xaanDXnY4owe85drCXwBXkKa/nWOP/QrYF46pl766CT/Cr9kedBcOV3of2j0B4OfSFPD9lhVRJrieIoamaVJ01m/wkFgNj0PwBOskGDfqhigEjaFGBYzQPg=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAE",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000005",
+            "timestamp": "2026-01-01T00:04:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "bavvT9+/evw1vuAjmSud6O934CRGdfaYf0l6gzanGnLH2wkRGx/3GBUKCsnXaDzLpAfjBxhzVG8t7MN567fWWdHIu/0PYIVH/R8b7BC9bVKGH7139KQYUu8tNKduUIeXL5urH4Oh5VuW+Wpnyuoxm51p0V4PyIbG5IVUSd3Psi7c2vwXFhUIMba2GKOo+Gv/qHgqAiLoIFJoi+Y0ViuVqRcDl5EMHv82UL1EiYNcWfF+CTMdifJR6pqCfZ+l2rF6P9vPjN4Gr7FOxsnm1+VIEWzy9Ktkevbfk9pfkcjtrZx57WqrvSFWv6+h+ss6BwmJLHXitaLdTjog+RUWHD2TwhQ18nDq0HLqsd+xF108+WqePIFvR4H0IVrTl/DfU0Tg9fROc/lVK8Iy/vMXAvDYB4iuYGIbmvcLW9CojftrYsubVG1UN76m7cqb+dZh3Jpe8m6PDeGpfeIdL0NawCwvc6yaHXCwRmtHAATVm1ZI4jVNshCpbR+Gjo/kOQ5BFrgJFPL5XVbsN0VQ3gn/9S5LW/IGloKYCAet"
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAF",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000006",
+            "timestamp": "2026-01-01T00:05:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "xAjHHN/hrIkEzbEhQ3vZgeAf6T7Gozf+ChsKNYBBXYncvWABTMYgYi1VZajZ9LYTYa5LtohwCX8ry0w41+SuXxhL+qYtnslXjdT4UTSvB/tN9R8mKJrRlk4yn0ujPSR//WTzdrsBK+gweYtWVxGhlBtysrIV59JOctzk7cKx6ye7w+dG3iBX+tPmPGjuARUjn3mxwIQWHUubszrhkBzGS7Q7pqHmYyDR98NzIezk1y2xcAvPR6EpSlITzpTvzbyUOhs+p8o+ENUD/IEBQka7HVDU6+Rzch/bifXwePa/N61XzpBrY8egzeLXZTYnp16VexJ7JgTYe+M3HA+FDFOm0rT+hLwpe06sXI0pfT2iG7JwwoFvtsFYGseMKEalMDp3P91rGU+TK4UlZEaYCKJ3N4u5oH0FETAd5ystWBa/qYm9AWagBel3DhpTnW3P8mKIJV0mWMtboyAFEnf/REMmWiZNa+74g7jQmTfNEFgQX8yPcKTM7QKPgoTKpUc5eAHkZtOiyi6SPHtltJqHg3RneFjM3SNPyHmn"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAG",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000007",
+            "timestamp": "2026-01-01T00:06:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "ptRVs0KkrLngt1ONOcXjrceKwzFgGg2C1LnBL2YWE08wRYfymt4WoL/HjX7BzfhaQhzmWCXO1JCFzP3qjjpX1iF6XAOEiLqaMIzZEx56qPHuX0+52Pu2UfA5j8DetWUduzbk5kd7zDv0iz3A1bSJd3j6L4c3I4TrmLGekiwqwJQ4EPN1KriC0VCIH7Bo3K9cTlwslFmhTTqekUFmiUerbsPSkfLd6blGI2dV/f9b9vr3w9DCmLQzU1sSXwr339QyMAUOCQPT+PaI6JwUs4MZeEgsdTk35zGkvT8KYNuBxIB8gVa1EJGiCIoEckHxCp7FO3P+/k7K3/yWa4ywKIa8oWOQETcDBuuOgj7k3954IoiwoysHnZZ666HbHVs9pe6gCZSAGNdXeINDTL4qR4zs7JaqnCVN+9ONLvXXELp6gUfVIjI0ZwOjz1JreNdETf4cfnkE7Owzum74vuNrko4EbsVQNrG70CU9Xks9xAxHBIn/QLBvlfWyvF2H/C1uf9lKmQX5f8aAGOIqmK6m8CXiIW431ShkbWQ="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAH",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000008",
+            "timestamp": "2026-01-01T00:07:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "ADXdKXYUlCYtdP+UEBssl0hWlolRBpG8CGCf/ddzXWYDr164Xo9DQgbW+nukeHe3HXNVN2aTmsPH9OfWY+DEJBRqViSLGlI/pfJjr50Ua2L8vlCZpWHbM+WYRUTXAFf4/G6CfV/W7WjSkwm1EqhJitO0v5A/6IMttGhJQl/GTiC7TzEXedJmB0Rc7VA/Kidx11qfmenahbcKOEG0Zu1uUQV8Ce57V4JWpyrdCDbg7P4YQMd/uqF9xTNcQOgT4WpJmU/csw5yIosmsmMwJpMJOlSrgoS6prE3JWFb7F3W7ZFeUiZie6tDD8PUhvIbKD7Tpz6HJ6FdTBAhn2ZMncb8UBaZ8nilWAX4T8maYA4rq/Y9DyinlpDX6VxzmhMjObo4SmYnIMnT3OToYeF5piVqKQ+TKYIPwUEpJwflFE5gY+SHo9+iivuRNHTZ3N/LaZmWgPnKipzSyVk3Ye8Bjf8XopYMa8WcO86w5laUD/jTMYshPwk/hVk+ISKeuhTcUOilnfaP4HU8MRdoLfu+2w6PyoUHRI7RPUXM"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAI",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000009",
+            "timestamp": "2026-01-01T00:08:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "31fWblR0oyX3PYsobCfzatbooqtQjgB0z72Uj/jm4xKeL8XL8w6ccWtkEn3CYdTvamq6Pdx43509+5eAJSkItt8G5oBsz1i6fdC6L/hscpnyKtVbHSnr1ESBgqp+/yBH4orCsaT77YIRS1JJEbhru4E4W/gGNNa3vAj+YsLIzXD29/RDTvoCf6//37+hEHEijjL0/CCThNL+uXNEYOzuh/xVcAxbYPFLJ2Cthar53WOv6TVqxJCX5nKC0XkuoY2Ciz5Z0LBBJH9hRBR/chd0u2ZgAD8I/NMHMZ0RL2WanR1rlzOTBhhQy4V5k0AuaXCHaImhMzseVwi0E+cGpO7SIsEYvnOqgP8fFHj/7FMI98c/zcpUxWoT24d7OdgEddlzSNc6Rh+IAFeUfv8zTRRC/GBHFd9M101jsjgMrvoSPGsLsGS6/5fTAMVBpc2wqilmkbhjPVvcgoWVWo/d1NOz+sAEsNZ+2ZG84idvaFLx3tiWDZGiU4VK6PbGs4+f0tIA9TLkwDeUpGFDP9nW5MFWX+VesL3gpSc="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAJ",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000010",
+            "timestamp": "2026-01-01T00:09:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "sxtUXtCr5GATxPWcWQpDByfWA2AMTD6ngh+kkRqn3AEZEztnKvWIIZXTjPfaf1MNCndyyKgA/iI3dfD/zfuJ3cNW5JRxZTQx4B+/YKOdxXg5DtFhp8PpE1gWfwIQwqtH76r9B3dgge0NP7fKze6L92nqMi2PV+soZDPWZS5BzmudxxAYd4ckQ/toFt2AiRofh07Af5bA+c4lKs5pjUP9FWOp59ryxDDqgYli/jvYFduePOUJ6CVaVYB1gZdNAlwgoY+ob+WZJ6T30kPznz277m3jf1+S247OFl0pk4y2SzpjR0xn597Mzj1UWGkfsNxFj7grXepD5NPuuYE8qoeAkfO4Y8mqCEn+a7necq/pTh493WUY/6+Qa4zRpq0sZKT+Qrihw8LtfLCuGrZBom2lGzTkRWXM1lGM9JstAjbag5rMqCnaFTtUV4GdTJOvl3WtEtYuWjhdW07yvjFRVOW9zCBd9zl1gR2tmMvSM9oSCqhRL6B6TtuoYLtgqChwZv3kWGLU5ABHSCClGq+5C6b3AiPDFLd7DIvN"
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAK",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000011",
+            "timestamp": "2026-01-01T00:10:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "Aow+BgJTBFU/X98zEqVHV5XrF42BgnJZWsaKRiuhGtZFZAaDm53D/rX7GKr47SriPs4g1VEaiKc3uJk9flD69GV24BWfoCjhVCoy9H9GlaucsLeyMz8mWBHixCtVzAjHFrsB6rA3ZVGyBhSJyKU9WwYXG5qCjItlkN/Wx/J8RbnGr2U9rUyuIKfpK2X+9si338D872WwamjPV72dTeFs3QpGe+s3lvbRAoYyV9Fya75VoGJsNDD+TRcHQYDvILvGiNBI7wy/vL7mwzvCIciS5zot1thJoKLSn9Kykghg5PWIzzrfBgCpmlJkspcsth7BwDgjk0KiUCqA+CXAAElYeMoj6/Er+VAecGTyjJTDt58mdt2wkLhngJL6uF4tilI8BpbNJgoV9YTWe0g/aVgCp0fIs7Zj1X5d4N1DhnONAsK4SYsjHQoI4ugP9Xqzxg/fjORPlqs7zXOQn4O5T0XuBClBoxJSIY8UjxGOXQ7vvLLbXSNQPmSHXsWYAai6m25KQkBGWElCnZOAMn74EOicbeTLQ7fqiPbl"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAL",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000012",
+            "timestamp": "2026-01-01T00:11:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "lIB/NOfGRzUiYjFfEwCHu806mQTZbhEpx0h+LiVbowC9FhwTSObYmN3FrUxt9wQwZpsw/Jm1fumxfCKCciIEqZBZJFMuTSHGnv236bNf/uZ7R7N9KLvB8vVI9VUiBZ/okhDozEeH81HWiYedBfTHT2r8E57ArtaX6SfApzUsDeZUD4hAxgrD13ZrJFYMGMs2YyrA3PS013WWmHQeS3uUGDsQocdKRFCkXwGso6pOouMDovowNpniMPNZfQzm1W+36MspPv1CXkdVkAqxfqaTEAj7nA52ifAKe/8c6Er9rDt54tGoCNyNgzdkBysRMPWQ1nZrm8dJj70yq46yAXXK90pgarvsNXD1U3+NSzYtxC4qcEd4F9oV5fdl+PqdtMBBHrBT3KTeVM6cCm9xM3C2+TVnpUZ80R50e4C6GpZACmqsUW7XADVjxp4YwGuj247XkzcFQKNk8UOItqZyyx9SvGseWnJ1Vz0V+c7bkABxswTrqLVAwaPxY0Tj2wkHK1apCmtRFQxfh3OfmsbS14Rd4XhOTnboW9st"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAM",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000013",
+            "timestamp": "2026-01-01T00:12:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "lOt/RyoRdLOUICWVmFPHqwYr50jyVuwXo87sxr1KVESRu6iDnu05twLNhy5dbK+XvIOspHogkI+eG0yPqgJ1Y2JQZh2dxuZc++FYWWNd9NJ/fE3BDpmk8rsnMuEc+EY5YYNxq1RooQc9YKjCETxYzUm+5XgzYpc8FuaUcNsbIFYQYiNXLrucREBG1Eoq0dHEHwKXYTtNSnHJlZe7d2CYi5Tmib0goDWZgZIV0/eb3215rApah5Qu3QoHycEvrnNE2bb/Iag8ye1fJTjRXV66+B1CgwtuWLl9GQ96B62qTX5v+HQn0uQ4n7Es3sUV/PLZ8dNPxsipWJ9cADXpeYTCSMvX1PIhMTD8+Jmz4/XVv/2SjJPZkIbktjbH7tp/jzq5EASqqGOV+YLODo7iag/YD/3AHRV+oU0ehyBxmqqH3Mw3uTiz+Vs4SWLmSusqUe+YAEjaqUScuwoHnvzyUzwFAC1Ujm19XkKhXFe0O6qd5MYGTmd3q3RNektcKUmmpPW349ZIRvBBUHgUS11b/LioBm59nQsZ06li"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAN",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000014",
+            "timestamp": "2026-01-01T00:13:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "CV7ps8WJnbFGmELOYqDG/7spVSzAC6FL8oDHfn897fa32VOZuX0PB0QugmgMggKh2i37arDMZu/zU7DWZjxZ7h9oY9quFc7PUHK6bfq+elIjPqIpAJaQyu6cnDfcnRGACUpDWRnGHwl8ZfJranTEQ5flATOmcx3p+ZhFdug+zO32j3hERq9lRfTrZB31Y27DicFqBQdKvTqvZdLR7LdO5C0iFJ+uwVhNdodO/wFuIUIGsCDT9JTmUYxTkz5AwWai0okmjwljA7Cj0sKHsI4kcu+U3SReMt3eaamEEGh5ZPqojIk4IWviLsmCFwkQIytzBUCaHpGdL2KSWVmjTDQFRHrklFq6Qi+27SNb0COG3RmUzkiYFiIjzZz2D2b8EUENCyQYdNkIuxj5onwPeP6RIETzWbXVHUuRijQz0uYVksDsLJtWSh1p87ckxYWunN4BBcavCm5bo3opwltHGfMg9ia7bMRorv0dgXyV5dez9CuVVW6HlcxYhpJdmzC1bqMF/2yz/gWmF8vaUSiuSuP/bWBln2XGXcU="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAO",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000015",
+            "timestamp": "2026-01-01T00:14:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "8t+sjP8hTroQjsYiA/q8qQEbgF1W0oUmsgFf6mqodTDT458Uv5XWLMMLK45VLMAXEn4CAzrfV4rfvA6UA01h+U/M5ZtmQTDzGG+3WgHqqx2uLl58M8AsGW97ePWDCNs/+fHW7PJiLUhbYhpKIZwR7HRjJKjfgVfNVVPeQFX2X1jdJpvfws84hSKbiXVakUPYH9s36mISCoOuWULPZLw0gGPEvAugdCB2tJLt/mawgHZplR4uNmOc2SOTYx7rFxLM2uZni0p+5k4VgvXFZBV5ucXG9nSA4TmGQv/VTT3EPXtlWiawzwMCZwlcN0cC+fL1gUveMNSDP49a822z8R+B54BkqqE/MYqMrEicIAIcF2kqeCkSj5yvImgWgsMGKbXErxbaTb9hrka1ASPb7kAXMphvAE0/I0o8/z/GwPKD0CdMC8ivC3JnDmS8hRjb/dIg/bp64dgBXH1mLP/7ws5eAz9z+Pa556b8u5fdRBf8kapKXr1b54R0Trc2xrLT1Yirg0xVBMtADSIdLZji2oSArCb5CPVCOLzHtw=="
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAP",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000016",
+            "timestamp": "2026-01-01T00:15:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "SAISxFXn0N57Eqp1Zdo7WLcteotgY9/gFJ0mzmUAfRmfsBdTqss5GBG+cyCVJTit+NG4Oo2LGNN2jTMCZGqCDSezSR/IoeA9KOjF2UzCOGo4uVORVWXhmcBE1CnNRs25k5cj4wMWDoZ+Bhc65ChuDeZbFsiKriquEPX9meoZLgfTw9UHaQjGxUaMdPcYOdcaEqJHk/JTQbG6GnpmjzYfA00TrwLvbDpkOcLcFZPwmKODT4JzpfOGj3z6K3+vSAS3c4K27eR34NeurVLRm+niL+MX/iMaERr8l6vt/MvihIAb5+zCiLRkQidSPJZK+j6s7zBFRwE6ceot6Z6jMcdKPI2WW8pd1+yFRG4Qxrurday8ezMkoxglFC4Sa6FtbxU0xqzKVCkpr34s7BA1xJUf2wJUl5ktL9cEaeJ+FaB9OjJaFEGR063uAV/O+sF/jgInufnMxV97N7fgrNikzvRk6np1MIIaSBU/dYPB5URIx7JUjMC8r2OexQjkUyzB5ZOTNR8b467fHz+bS5bzwRW1Tn8a4uFJnVMe"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAQ",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000017",
+            "timestamp": "2026-01-01T00:16:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "n9xifJBnauVB2OPPC4KuhxAoEaLK1vLFGaY+dkXhjdDzuozU7eX6SJbTkLGLVn4pF+P+AtkSAIeQ7nVco12skN2NMoeGa1M23UAyOOX39gF2RbfIM7gwmxnm59OT8NGoU2W2y5DkkjhdIjPx/olE4RSNjaN3zx/aSp6QAF0IYzvsEokY3HndwvUy5j46zrR1emktH51hKs2o2haACAuC8tgodjBdbJ+aL2Rh7Hd1xYeuURvcM+N8kpMrsd5o+EKkjgPpOnA5hUHsf5mGj8tulPb3qJBx2gRb4Fe1iFBZ8NANOYYumgS9I64oBE8g8lMp3kTMqQdKHT1OeUXsILSN+NV8u0V0Q+71FoMI41wzT0r0ZYjR2kthannZx9iFXhYsA/L8LtEg2CPADMiH5Vw2wXmthlxjExNRz/04Uma9U6fn00oqu4zkYeCsi84j6G1jinwBZSNeEdKa94pst8e64wQvONAttw1cbgXzKOX8qd1Qc0BAtDeFwjEJEHFIPjASbtmLwq1fMx02VS6M8aZExJkxzGjBcfuz"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAR",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000018",
+            "timestamp": "2026-01-01T00:17:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "TLD6GG1V+OitxJhLQWp2cG0LnckxGQL6+muc2O6jVzfrohTU4zPItGdLEgZtYZMhxXt2ptdM7DQloSctjVCbeev8QCrfaflbHzA12iu0w0qmMxvhJx86zYDgclou6hs0I0WBsKSpzRqZm/XEgTNGERxHUbrcjmv4NZU8KY+2s1exYCDCwtvQxPbazktbBTj3S1KlCeWbFke1UpKKpMIaasNlJcG5JBgqcweInbstj+Jnz6nhq0X0BTS+Ci5sU0vRZ7oWdFCL/rn68i2kegjNaQ4Zl0iLkqPdgyQXAwhIL/jWZAVSJdvrLTcgC+a3HQISjlQ2IPzV0o5SQKpazEpCIvaMB7+FIYTkf86LOU7W8YeVMTazV299GXOk+NEIn0R1wjL5Fxg5VGvdGkkSoywcZxtKMp+72edI4xGlCOgBXGqraHDluEihme0ZgmN/u3WuF1vUoQKWCz9prMJHU1jz9pNF+WYs4c3aZM7oCEBUc3Gc99yLl0kgqW+VTW8D+YIHRnRkGiINZFPLb5SLwADXym1G4Kv6Fzo="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAS",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000019",
+            "timestamp": "2026-01-01T00:18:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "X9E8dgFxDt+tqBrSbsXJTWQ451xH677TM7BaiBVnTAL9s3owD9Wnf7nX3J12x+PkzMhvC7ko8p3tzQ02feOxo35GN1cACUC0bz8vl81c9GPHvbBIelkwKLOdTufeXt0zmbhf1S6V9GobyR6gdaDxJ557SFKdQANkAxU440bXhiu0lUtb8Na0n2V69u9iSc3tBVBZtNqLLUYq2bc4xU12nv1f2iOTXTt0ebRpLdITeBzeVRih75iRjbTtWJguzOjUcfEmTM+ANSu1hHQYJ4YfpPwmYYtc0BJokzdbmb6byqDgrPcX+O3Wt/hrtF0pxKBrawgbpxcPoxqb7dnbyqmkmwYElokErptOxZ2q55/tgeZKXh0hBNyyAf5pxrPX9R+K9encVmFVOnMA11vLBwBfjVXrY/69wbNZyhYM5RSuJcWMlY8jTRH9PqTTVa0Vh+hWqz9N28cw73MPVNsViCnvDZU02fl3r0JJ0NbRDZCpwJX/+ip1b6sDlvoTEZJH0tF93SYwGic23iqGEhupGRslxH9zXwa27dsS"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_002",
+          "key_epoch": 1,
+          "key_fingerprint": "bb27b34c2d025284",
+          "nonce": "KTXtlAAAAAAAAAAT",
+          "aad": {
+            "device_id": "SENSOR_002",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_002",
+            "reading_id": "SENSOR_002-R000020",
+            "timestamp": "2026-01-01T00:19:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "Ssaq9FRXMMqZkZCaVt0moweghQbrxzlTmdh00viJW0rOUxHjvlJvEv7LbtonPExtn0uUiH2FIxBzSvVzHwhYjYHasaCBAPbXLoOuDiN5K1ES8MJyaB6ZlCYAaxE4Sw/BGXbu3bftxxT6dXxjAgY4hHCS4IEpUzf8byWOkkZTO3mrEW8LLBK8FlbJRAfK5pLz/+5EuJ/wSmuvqnAEj+kGQIpwlOk5jCja70WemO1x65d1ag6j4LzgNMSQOEMV3vxP+0z+mPINQIHjJ6Mgkc8ZshEyPUF88F/qKFkJFUQ6bQPE7mnUR7cTzj82aAz+t5RQxcR+oqiHoZFcpjKYU5urhLJkIiRb8msCCnGqdQzHasRs7UZ6xBy1EqM1zRqlFciKX4a0xJCgtu8KcbB8eT4sPfYKJPjz/BVUXUUz0Y84SzTN+YB2VYIrJ89iuV+Icuk+tVkxPBQdc1sAeV4Yv4uVxS+tSX7IdnCWYKIDe9PVFRQgmCPfaApFLqgx2olFmHDEMf6ft1ZaItGb3tOOzkYYSM85h/fWV+U="
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAA",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000001",
+            "timestamp": "2026-01-01T00:00:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "E+Oc5OIcvld+9MhPILax7i5lN8/Nrr+obhNN+Ex1DN3oIJVB69rdtNCIoW45yBk0JlKFS+cy7ugKrKB9i+UjVCaWT/r5i+BsoF6T7C7jPiYA6AftRXpP4v3ESbAKLJGc1005B5m0X4ciXWBQmW4EeqTFSFpC8bWz5NM6SCWTXmaOKmHjeGEa2DIk+biIYwlqje/7z7ut9tI3CIH/KNpmJ2+zQCF8lK/98lnUEJQbtenxk6z9sCKTTh3Kgh1VeK/kaXE5NXdax2kzzjCoI6ZG5xXYCrmeXo9SSFmeIxQd9ecnrdrWnPkv4HYT3uPbPPi7i3zQQAbguUfDEXzJQHFvhqV/nccal0LJ8B/+U07YFpUCwoAbaWS7vRHet5ZIhbKEl7xPxgus387rAQy8FvjSm0HAOFdahGCv9lwbbim9jWYCuzxQ6vmJfiFl2i5OaIedMrgHlTmGCFf+BD4MzGodIHkaL+rtgAb7cWRNng3VW9hWONIV9E0Is+lRVI+N1cIJozjytuLbh8Hkd2oa0nPLk+ZROis="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAB",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000002",
+            "timestamp": "2026-01-01T00:01:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "krXZoyjQBXcafhXtK6o9+ZTEFPKgYRfVESMfAA4xXwPByBO4dRp2JE/8A2o80IdxWKGCD01JOGdSCc0MMfTBT28xTm+7667XYAEd9j3Co1h+PBEco07E/gX4yyRuJBcC2cfR/juYlUiAv+Wv6KJLnS9t9Pjk0INJDP/NJYp3MHktO/23z1OURg6C6oxUlAnNvzpDuUL2lFZIY9aPO4rRcuLaZWXv9VNdzZAMq1WBfgR852J5kQjum3I1TsAUA1bW/OfNc1ET6jDzbiV4+aqCLPpNKYiGGrt4OcsNRJH4zlKcKaSq0dklQMjGb5G7HzsSPwgEgs37g4VDEIF3YkVz7dBcXfg0S/GNvTHwgCNSHfrsUXdH7Hv8pmPnqedo/DkRFb16q4Ic0nMGoFqd6OKcKhz0dYSlvOPlXou/T1AOV6G8wsXWMDjs2Z2ZBLJvvfsCvSE0asJxCP26gwQlOoo3U5LF/1dGe6ZygZ/ySS4TGJGJK3C1mrVIem44TwBkeiMFtl4eZKqIhvMHk/F0X98HwT0A2XFMjA=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAC",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000003",
+            "timestamp": "2026-01-01T00:02:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "/tt6gJhPFk2OuhJtdwkzQGcGiZUQ6Qx77giZWEn9BMMZ9kbmidpt8HFZef5vcja0drVpRsfQ/PgYwG0DMyV99oC3wTzshUJkgSbGNGKrhViaL5ZaoA+tf6ho7RApV8rawdFm1KPMRLDOrB+6+LJlXqHQLGOFXpSySEcxdZnUtg4omiDcr7LiiqZvjUD7wETF8GGeK1iyY3tzni4fYdqsmoTugamIC96SpXyrlVF0D39ek+doOneATULEKXlNFNkxpc9JBP/0qHXY3lkEhWMDTS4/urziM58ibOdVK4FSmnGekBeVq5DFiSy0jDUqEHwLzH2LR5c96garJPVoPtkHhOa1pZWznNo3UQnZaCxHtT/TDB3bLTfB0BMO6yybDxQWlMYyosFsJHUp6Jx5dSXYcvwypu4DUTHdxP4ZveU+wwy9gHnNbKPYUSlCfWsCVtU+c7ahZbYwrw0Q9FWcuUu6aobEqtDV1ehhrVHPassoC2Jy+Pzor6LtSDhIc4HpDgjPcJAWeEzozngd7H9T83aTyX4zFY3IInA5pA=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAD",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000004",
+            "timestamp": "2026-01-01T00:03:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "hWKpSNstWoOBglBJcG5eK8uU0xqN9NvbrVEcx5/74t5HvGVm1DZISAmHGqUJ5bkBo8ESJXzWMLd/r8HzNGW+RBAzHOf754q+XWTg220BvwNL2WSnCWCveoGkXNHJnE8OGqLbiuG1Y7PT3z5RwVJNZ62rOV0oqLgZlvMUYqjgjYd5NHBZbaQb7XH5mkMHyfrVDyAS7ioaX7ctliHZsg6Jk46v1AIVKhEbifw133rLGyF3DmBA1xgiOlGxRP879149DToNK2QJWfx0QDj+BbNunXagbjrCwDIzDSFC43kBXbCuzvZONkqGZOcvhiglP4sHNEyT0q7ZQGOkoGgzkAPHNg8k+xNWgrU453W81pbMWIEwzMASBEVvILNI2btJQOHX8lun9pIq+rvHbDhXuHSKCwJ8V4YAcRzWPrLYJ0UgngEMyyHxW1UuObxh4ScjFB6q1+SwFjM6xRm/n5/0ma33+HJBtlw5DjbNClyL7VCTl9UNDDsORmAoL/jdK01bgww/p3YFcbXsH/A/28cEbzpqKjuKO9VnWYA/"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAE",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000005",
+            "timestamp": "2026-01-01T00:04:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "GBZ43LR3cptxr57zRvK86zy3pC99+BWSeTHKlaZUOS3MX0t4j5kozbwPqJZoauJN7Dd3hOo6adrPrI45dugSJAkBVP+RxGHZhHxREJ3fXs2kieJLUJIn9xkts1u8B7jGoQPHRZ0hg35Ev9Y281U0Igt5yivEzvEuMJauUAr7cnueSXMosTwVEVYuG42rSxPL0LHtC+Ngp5saVm3gHc/9Q9Fi1DBRvvlSamVq2iEn7nNVHmJdnkivBU+IZXoZlPruCZtCfkpTptgrjdnhQIPaUM8txIzHoCDh/6UzVFYdHetP+QtWpxzeyKjvvyRmEgIfFkiV++yQVWdHkHo9gtkabT3GWs9XUeze+szBPpvVrDhLFI8198OYCCFGO4J8YVnEux0pOV7lvw9Nq8T27VpVsnISLYsHXXdnfvBDwHQwWzR7lCCCftXJ2WNO3YdKPQJ1UaXtO+c244SUQo5Sm2C9zlGl5DUpNyh9XyQqC7bI+qQNwJHEQ+a6FRt2Lrom3ZLu68RPojdhaoYzrZWF8u9muE9yTdu4hc6V"
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAF",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000006",
+            "timestamp": "2026-01-01T00:05:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "dc4pY+v6aEDwx64IJ16UXy20hIKZCf26F7+XBozPrDWBwUF8DF5+eW4xbBoc2Y1bYbv2xmx+vgLaztnuIhZKPhileCj6b8yxoaIo7d6deOEl9SEKl8dXfxrbqfCZJxOSHKRzGylr7rBP64DlpR9HHR7+/ygxRSkF0kjccUWW8x93fNvdoI5eMleMTqQevT7aj+LZvY+kGWsWf4TTGI+cuTFI5VXNrivOFOfrLNw0dcwpx+0nIw5INxQEgOwzYDRUWZ8pvkHaSvh93lRWYZq7FtHL6/Sou761MIhyx5w+VTlNQbQ20CMYKaEnUH7/8FHu67+vtmaB6CkCMtmG8E2xXEfUkAfe+1YWkRQPNu3WyzoSLrW+nlKJGSspKJdlpXkyQ32S7YTJ5plToyzfxToPjAZhZ+YBnTW0VDhI0tWagZhvzbtf1tinv0xeTS8wiSaKKO1zJx4noUV/J3KyfqlMk+PLiT2RtLqft05mTdC1TXO5pQtRldjjQcVXQGrIPBVPzRo61VW3wQ2YXfu0xLsToiw/wgsYtw9p"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAG",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000007",
+            "timestamp": "2026-01-01T00:06:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "k5h2IQHDL+Ogc8WGmwptYCxROqiB3tRun3K1vZ2E1kktQxh+ym7D1P2jdRmBF7v9q977EQNoM5KHmMYVTY7blCwtBeigN8F9yEMHnHmYBaST1bE5sozDNoBb5O/t+JMwbhzqNSZZAPw08vcgfbAjQtsDkbGcdRoXtTvpzvJXBakT2uB65/M+KMsbmZca+P+LolCPyD6rxA9w75toZAbnGILkFkfxE19RcCO0RxurWuGCuiMZ3UAiv54eRPSOBy5Kq63XYt0Oiesm8Cone1DTBqRKj2UtKzHFVAPg5EQRIOPXaQoc8tCklCKnvHPu5u5YIKE9huAKPtrPgBO9wvv8+eW/f3UuTXv8T+RdAOk7VbPFWBvZB+qp5HQ9phhBfy75gflG88ZTAjDOqOwk0TFfAG/bFUjc25iUapiN3fiVaoOrC877e7m4dOP0bH6yoI/czTC40sUOjFe/A32MLy7ZM8iKDBRLQzQ6InrIWNK+Mh77HvYSv0GfibvYPydp6BCpYg9jCs9XhlEItxu8/GG4p74eCdgZaqcL8A=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAH",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000008",
+            "timestamp": "2026-01-01T00:07:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "xHSDcg2btPTb6Jjwxv7XTeo7dH323Dvgkw55qSHGBb09QyBLb31jn19KX3KNg2OvMYSirkLwD0+SbpO1ZzhBoTUNYt5ypRrYinS1DPg5nRCHphzwF49eVIuv7EMbbMrbIELv83FGutMZ+FwM89A2+aNgZatXXToPve/971ZYrAwoKElLb64fuM7GnSmCuxOTFyzw8VH6jwutGN5FcTIzNtZj3jLiMtS27gvSDri703aKK975ioP+6EHGRgVl5yibb5ShYZkHWv0AQX3jBrK+iZZ4mu1H25hbxfVB3OOA0KdnGN2UkS27xqm84g6tRyZrZiOv95ByFQXH/yWSc2aSrzqsD9A2lamYECK+Ip6QaseuQFBCK+El80Z39Go0qKYU6eS9OcF3YFeWdbXkCLfCZjTojo2r32A0oDTYS1hs4HLhzFHgqgwpw9yKImhHZV998t8Xd/4vEsgfZRgiLzCg4/YKqKxTV7ksL3IUjO1mxWu/Dw9kevFRtcNFEYLO+sCD+XUudfDwIwS25d7Mp051VXxdugVY/1mq"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAI",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000009",
+            "timestamp": "2026-01-01T00:08:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "k2lL8tQMj0JPAEtnZFMNk0XYFA3LNzqf37XytT/d4rcz/19Wk/UszI1dPm73hRHYg0/yqv8GJp5QXXECG9/t1Qafodu+0uaf6aiMZOEbmqrQpvjY7QbasWS4vdYwthv4kFVhWkFJAdL8SFQaqTbB2anCH8l5fKypR6WzfcMhKDJ1KuyG4QyBEnJVgGBn6XBmCeP23A8aF1c3IXw6CJMIIuBOX9Vx5wwKFGRA6JmftXTnZPCks8eU8iA/XbGtgLBWbpOOIHsYfdSo9aQ00wKXWCnMLNgw0BlPFmEyAuyOxmLlLxlgqAyS6nRPgSlZPqjntvAt3sT6/AP4eBhlzrHIiRQC47h/tTUX7Rs3xPMchzsk2A9cNcwUdOEx9jjAOgktfm9rdqMlKYvadwaY19FQKQ6nBm4/dxgoneVYzX6erpiI/wZnzf/tzDEZu1fpzK6wfZKDaREtFg0IEufHDOOhWUws6gMOJe/ur/AucOvHapz0mpGH+wiIPvCg4zBWECEUtMSZ37EfJ06/Zu70JYzpVII3SFbW29BNyA=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAJ",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000010",
+            "timestamp": "2026-01-01T00:09:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "78pV04hfvvHJOA+dbE09RiiJRNQDTE679Oy1Nv2glVLtmbMTjLXlPqi9pYOUYIN/8VMa2MapBb8xlfv+6CsaHSxiT9PCfCq2UOtoS/QQN2luXl6BhUlWgb1fHhatH2yBLgx4Ei+yySqW3vpxXNWT7dFsq8RpHDiGsixQXoYXTNHeqNEDihTxPcROxZP1MAd0B1FMee6v2i9kHd4azdIhCL73YExmUL7g/dqfxOuqXdsVipC/g/SuKLZeDXiX6u0VDXVw+tkQTl59pwGNNriAnUQLtv4pSLAHbTMSfkXYVZs8FXVXKfNr+kCUnrWxT3O7YsIWhvcSkOZyz0Qj8twnjY6x1sADZvszszuMxe5Sawln/smALf210zTQj5uyQlSzLOHShflw42S53IRr5IOPjqr50yMygA02gLZl20hCBYBChSMkj04E8DK3cBTFzYGfP8GGSNNcmQjQYfsZKoyiVDj+8lq34AYuQ1wl9p9dDsA/EcM05d9i/WSkY36PJXcpAw/XfxrZO16Zw1OoaKQMLQWT+0aGu9Wa"
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAK",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000011",
+            "timestamp": "2026-01-01T00:10:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "INMrbkkfqTwC5TGO/333+TPBeFICPh+jnLqreC6wsPhIce7UOBSymWy3E3I9Mee4uQZi+d4MbA22o9P1JKZaolqSIUIGS06zcOZNEumH/RQC/HhjXa5n7XPr0WIcwZn4IG3S2FbkN/tA44AcbCvX2OdvAAL4spHQmzVNx2bn6aWzSTVX+MGcFKZwwMq4fsF4KLzPsYHW9Y18KKIqZ0fxm1pixVZrQT6SWkaUwtQiK39ZPSmLQMhT5Eo6SOWAGTu8b3NhGXWuJDglraYzZFvZy39aONaRHnBxIEFZfEjZ1VzO3d8DOcc/qZNpVgMY8WZ5d+xMgC2HjvWNt/nYJjZIUVy68FxjYp17cdqr1JX3zCUyHIBl3zKERTAQiW6o29PJZ6dDi7l6nTriqiNR6clAHn6w+JDQegUmsi2DBhX6LIG2e3Cz3QnDAkIJzDuvntMpa+zzt80AaU7Z/MZzqBfleKNUOdTo4GIy3BXOwFXR1yCIveahQpZGcRt07/Z7r4LtwJbaEUvoW3ZsOWr88A+19Kz8fyLA7zbj8A=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAL",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000012",
+            "timestamp": "2026-01-01T00:11:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "kE4an8WxJj55kAChxl+ssCRPjUSOgLeVnfcvV8bp9jx/fHwP6efQIx6TzTC/WdCS6ejyzE3lJrmZ/tLysfDZdzYSK2aMYNese2FfXS2xeuqXWIFUoE8Su0JJHSzDKECYjCNlJB8elnuIRTKFmEgKcjWCWGtG9C00lgYwwFEoDvV+t1plG6euJXGjz3Ibypqgf/CsK4u3Aw4a4t/1lCX5GqLXON4vIiT57OVx3jEM4q9NpNb5fFzJ9UyOMOUVUCCRcjs8Y8+TQ1SFvZlttzy9Ve8g6GwqQbrdkPfPjMgDqSXuno8QFeVFrIgzyXlyJLgllGYjlE5CihQZc5cS70b6XdgnQLll8HqFC3wtvR5cc5kpyag3+LmWlSNEUFkjXSAHo0OxJq81Q9dkRNThHp/e0+lUh01JYnHF8p8hUPkNsAMMhHc81m+9z/zUorb+EStbw3dyvajEIiQR/fCFd6tKUmf4jMJsAJRDRFr2XWVdH1UyKCcueAGlVNbbbsRSUfX4iQjLftMyYsyKWOc8J0FAtrOzC8K8nXg="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAM",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000013",
+            "timestamp": "2026-01-01T00:12:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "Arn97qeAmX1fxICI0QLPT1w2RaTT6L5i+wviiNJvi11BReB1L1r//pqXCbvekZ42x7Pi+6LyXE/XXLzJvyrHTAC92ldM2gOQ2wGT89pp+j/ClC7cIS81TBbJWa72EJLQ33GcaOJTHX3L2QL+t6Vv9kUfDzcY7AFjIW65dDELHK3s4/BzFH6NvNtC/AMeJEMkbOf3VUg+mHYNF3qlUKtoYyC47kVnpNzwsXbcKJNdvQozNOCBy3J4qyVc8m6ZNObw/uV4DwrKAu71CgqD1XA/qmtQnHSLZZnf11XLeto66Qs5dY1l8zZH8IvTHvHxbNVr1TlTFYbmMzXMecD2Pm5WbGcGLlLwhZRniA3aBVRs2dw868h85AoVIdGK/jHoPsnC7WIFlm5eJs8pNVbXx67eb0UfsdC0pBG1tf6UAmfXCUB+NlQZ68/lnrPRvPUOUid7Sf9z+XpsSg+OFj4TVypJDaAI4+M51brAgfvQiPibUpaP+Qs9x7PaB27IBDq6dOPPOjmTMrO+9wTo+nK2iY/DWiUDYvWIkh0m"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAN",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000014",
+            "timestamp": "2026-01-01T00:13:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "G1NFQGjCQgdYXELxvvfJrxALz+CA4LS/hBviY9PY1cO/syZ0i0HMGcBnD+axd0G8uwqQCjlf5gh6Hbuk+iNIerNsmejxCRktOBxmZiwm+ErwCU483fYDa8K2kuShLNv7qIJMGFI6zQsYXu59hTbGmdLZ3/O1VNX1dyw0SzAn2Oevi0iMKwe34M6YZj0EC1QCmw2t+rTxK66FxdNP4aw/4Jom6t4hG66+76XlEN9SjDy+uKno0+s0/tJV+fbzkIVU7tCdnuTQXkwZ3JCVNWRLs/Nequ1KHoJv+4nsaLz9/H6mOmH4Xcyj/7ZZNYnjTWfKZ1N2z7SMtzPC/S1mmHUVrC9obn38CXVD9W+z/I6sOItlC1zNwadXjKoZU8QU+LUks00TVgtNhT05FJvptqMds3H40Ge/JdoAgVirRtQ0PLVfx4rVHuxN2wK/mk6SRu2PcO9ngvoxXk7fIwGZO6sQ+6gSj+CIMb4uvBbfKmv+1MxYq2d2/+nbh0OTZbk9CD8BU4GddbhuzzVSDMgYiO5PHJJ3FjB7clk7"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAO",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000015",
+            "timestamp": "2026-01-01T00:14:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "zR/NLnpabgKnm/fZetwurcD7R7F2W+k+1JOi1izSkbCiP+yGvONK0GvguxAO7ZJii3RVdVU5T8ORSKHJ++AIBqMMsSmlfbmi3PkFXyY4YDAaKh7oEvy1cZ9lPu6OSyiNmKFbquiz07uqpJ1nkQSlxLjSyjOE+yjwbfiTxf6XB31L/r9CwVcbBVG7EMoCPdpYUuiuvxL9NQ0HPZWlyUiT9vHBI42GbAszRkiNAdaEG7ky5ZGufb0q7ZTybSDuRrod6RhxINmSOlnNaySKxrwvxwUlmUiJa0R+RLAtdcoHZmSs6tZgVjmlDXVb1aqIt/AdWCpOmFEyRvFCIHmTRgj/7ojg7E2aWhZcy0F474NWLFDZ61Cf7mtQMgiNC0Xg9+kzDj30UZA7OKZaR0pO9O3cTT3MYBaPxlK9imCtzpRYj53x7IAmRvwDlGcYku+UcuG+yyWyFs6hgpywaAvfR6g3zjOvhkYekswgVmUyOdYy3NumrlB+aEVarGrG0ERuX2WO6dggrIJBi6g/y1df/mG6ISk2lv2nPDUJ"
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAP",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000016",
+            "timestamp": "2026-01-01T00:15:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "QIl1JfFCC9uRzmPjLlYDw6DIUtCvpKh5f1vLzS05vx8J1jdYJR7/YLcUksKRBaSX8X3X+vVUwPHMtANdPbYuZk/emAT9uNetTl9XlcEg+hAlTV3dev4SfyZDAqhprW4sTPsrOGjCe52HVPjArJXLbeMow/mlNmR/7eWFEocSBp9R33w6jXg67wc9JB1zI1zg8UDDsKifwGdpiDPOtCAtJeqT6j3ZY9+rEFbRB7ajJoptPuPd3YugfBRY1aI2XUehzazvyhar1KLu8vXN5Ict67hYoEcS6U/665C49RZd6C77PteQPUaH1oExwdpWhK8E9KCosbCrjIhVnHuoOK4j0dweugO/nS3JzPXcCOgXIg/rPiXycs1DbmvjiOivqDUwBIdQXpWxzxd8wzrBYFTqGGdcpURsa0ZHUWeFHiec3wm6fbJyJSJ8isGJ3sEqoz/uz3fHDvZF2mVO81v9swFkG+DwBBOdPIvaG5sgTevt8G4s1GF18FeM+3bD16ucbKyFzDFe3iQgsH1azZ/6efAIDE5TZb2AmNFS"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAQ",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000017",
+            "timestamp": "2026-01-01T00:16:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "yUaJyBntO2UI1WgIHzBlrSCsreIR5rmguauHQ8NN7xkvkI4FxINiRK3nQVDxpzIV2736C6FJyonMvle/Tn4rQ2S3bmcMNNyN4m4ly1IxZHHy4nc6KoxXjxiZnkyyy4UavFwpA2PXa5v+MR3fSQ+WKaUMR8GvudWE1MMek2ZvzljuCemEpv36lEy3xK6333NzlASrspV8xKOEMSMdhlh8wNg7Qy8PO7VPv06mLtRSdkWSMz4gdfgv6G3K4A1PsmvvJ0cUC7Ps4H25MyrWJkIHTRcK3oJkb6dybJ+pkosgAdXeW2qOnbvFu83L7JbWQJsLE/klWelBi9+PsF2jsOo735KQ6pKaq5JlcHQjsOTpjlMgFgJ7SDalUT/apLc4qajSj0qKRbSrda/Mx66oh1R6Ap9f1MjZaQ4O7VJKtkh8w1sH6Ho7s572LH5+GjjuyBp6v8wsxjqBU43pmxEOusTCs7sLW6lmjVC7L/+POtraH2PQZ/gQZN+cJ9wFTN+m5JAj9hvcMbixUq8UJWzLikuhU/nEzBQIUA=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAR",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000018",
+            "timestamp": "2026-01-01T00:17:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "eiljXmEIFg6TevSepIGp/Wtxx9ICD23PLZk414dV6C/EelneRNWxsS6SwAs9k2pcKbcdxFbpF/EqvA8d/5m0jafJpsEye3z9Az0OcsZoBzhenhyp+W8T7Pk4jQmVQysxawdO++w0QTSyLOeN8oqWTsv446vwaxn5QzEGRf+ghIhBAuHkNLbNoqB5ouE6hlHOT7PxGZmqiXjwz8rM7923Gpmid01THvqWfp17rdvg0y2PndJOXjobh9jbR5o1TAALgVSNP6Y1HBI/QhsjrvbnNIeM2YqpgTIQ/pzIUiKbQjESLhs7RdFNbHWDUfFuN+YNYZCU3yzHWDqIJY+qSz1CvoeyGBcwhC6cSOVuE52IIerkLGnnT/ynRqXZJRUBEGCx3fQrYtyITP6Lz0Ami3sCiFYHFgyJT0J/HSMNCRI0Dxb693MGTTuCbG8jKCydXwxgatZkRhsay9pgsuZZh4kxPfiQ/Wk3649Iaa4ByJodHixu5VDKYQOnFy9AzNYQwT9bz1Ya/WbPfX0q2Lhh9M894UwK1CNywDhljQ=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAS",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000019",
+            "timestamp": "2026-01-01T00:18:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "H5qgxwH3KGuLC4NFF92svQ10xDSt6tGE1esWrHVpgU5lamPVWRBQZy9X0GeWpQHLy1za7knFGRtTV+b8xB66kMDattvP+uiTbc4x9lbZScOQqpgiqStUmI5LLlxURhrPC8flJ7QWb6LzZ393QIspqLwF/wx3IAXqfhHZsr7bvguTw9iuQcVO5EWz91c0CBW0o3+8mme2Y9ttaAkqZstUL/33Mj2ljwngDKmOueqgnaXgOLu70xjHOnN9h9zOpuLViAqgkSFUOlRq21eiqtKEyd9dY9Wi9ThKXrQyngvSPWS6L7nwhXcWcZG8OtOnrdKO6W+YkcSGhdnMbjhffUdCGZDcsCOcp5FFNGzy6s54SNujhJ9ywHiqPZdWGf3AERICYGBM1u0Lm8oMQOGHHeh98KXDL2HlTowtouD+PKSBHPB81QrJZTOQx/TliONN1VmVutwkDEAQ8ZnvpNwDVSgUL+5U7+SC6rE3JQHRLtriwv528FNJb/unl/jug9pXaYT+pQPmx2Qs5fz+8CIfMAOjKbdQvTHwSD41"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_003",
+          "key_epoch": 1,
+          "key_fingerprint": "542236f9073a1770",
+          "nonce": "bAhwrQAAAAAAAAAT",
+          "aad": {
+            "device_id": "SENSOR_003",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_003",
+            "reading_id": "SENSOR_003-R000020",
+            "timestamp": "2026-01-01T00:19:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "l6X4d+4yzk+wa9yU0keJ+/rlsx4H2Afmi53CGCNBfjgQIj8dP9B2B7aWXzptnuTTMHD3q+5etgNqUkC+qBqgidcBeNFvpCCU/I3vfIwZyOqER+jHs7+dJgPf866hVcCMjhDyxi3F30Pvl870rmE7pMBkuAT9tU8cYrlufjVcuYTuZb5V0liqFgmvtOF6Fkkjgk7Xs4QakcEJGzt14rII9VVMnc+Z5dYh/IpR0kfxUB0xm5D3L0CtnjjDd0PobYTh6gumjcxBkIee9V789l7UL/S/TsT6mnvazpQ/EyrcukZimbwiO2W6GBkZClY9Q1iXNQpw1MfJmgvn0tKBMdxauwcYTLiXNFA/vVRyMYsR/tQK7B3xZwSwlRl5CeanQ8eACqhHxNTz92rp7IyHGdzDariMICQsFe2McaWiZbmdEtyCH1vTRFjJ3SggSEBfrJJ1xZOFN+hEumeTQjwjphh8pJwImD1zlB8SYwD7FuEw/LXuyDjXdkq5qCwLkTAjAF5OwdPdcmAedhHRn68C17EK7HFlaXdSpBR/"
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAA",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000001",
+            "timestamp": "2026-01-01T00:00:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "4NQ7elemB4iI3Vs11K0er4ER5M8UnaqWSBtfSNXOjBfc32WxIKvvdUDsnOQzi/4YMCx6BQ2/8HAPdZYDhtGy5D440aPx6Ip+TKT/YyaRT5YnI/Gw83C0SP1SGt9PW17/N8ncCXRVXXQZi7ABDX2wuGix2aAQBm6qBJ/piuekO0YRtXN2aKwbdhTBrtFpiLVMQ5WsWyRntpimn0/VlKk3Ha8cQP0cd2/0YBZIq6UCfm8Fz563MZvPSsE5hhafvTPSBX8ZUca8XHd9C5Uu3r91gHt8ME6JUkvCZLSGLnspmJ/6UpXY2IDYUTqKnPhCtiqUthOtEFdftJnwSGwiPeFZWevnh3axP6vwdLQo0/SlcbhlPshYIgPC7NpAXocIwEKTsbxTL1Nyn7m9CUOMBd5f1P6yPeyr0xQHWwtqk3nX2cLve9W1AKuD+JCF4PAI127xhkiOfBGTIoPaauYMc+HAD3asmGYk4NuvkGFVUTWOuyFLEP5Z0x3nnV4VV6Bb+JfTgjfeHr+n7nvO9CWFVEQCHUXXT+4="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAB",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000002",
+            "timestamp": "2026-01-01T00:01:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "SUAs4NgBY3AZgpxkpf4ri4Ko/JiETfr96yD4mfHxNqh0ooC5JAMSZCp4b8rw42D8b9BNrSR0gynwFbNM0GSkg/aTH07vevEQo2q1W/9QxsuwMT0wHpXUqBq9hiuiE4BWX9J8bvU/OxWqi3qMqA0efLhQ2ZlVgJPj6kLcLsxlb/hB63NihH5bHQW48/BocmdVPdCct45G4KQFcfW5iLQlDncWH+OTqfyEr1kHOuyB7E9PfbxeQhSxmdK+Pcoti8HhDIR+t+Wp1Kf5W/g0LH0XuDEX+ymCE3T2d7GHgVSjm0yMcFeCtsT6Ro6zFRDSqJucx05+PSL36J0VKFEQYTdQTKcGQXT4pHqWU7uGtnpv5/vOUIMPoc4L0fdrLnPPnW/X7RXeROfodiAlc+y6XebayO6sxxdz0s/HRYY4ZEfYPLlUYyF2NzZJ+x3ywXDN6P+9via2CtUAEDHwhv8xyuGsBzwEIWlHjHwsTu6My7RDyjAPKUdqLGKruQkk3u0GjG7qiI4zUb9/48wq1db6kDZ0kOcSf2T9xQ=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAC",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000003",
+            "timestamp": "2026-01-01T00:02:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "m1oUAngIIJQNPP32DjWJnqXQftEwcEf8DzAg2gZU71QQ4rRxWJsLS5CQGqasj6AhbXIPTxfjaBuh62ssbu2/D0TjUpY01B48U1C3MS668UI7OEcVQJn1iAb6caw8G8UMMFbsI0lgSUAikGO9R3TaZGCWz75dMiNEzcg98r+GLFiYsGYOsP2xRE2Mj/an6gKpA/oA91iTfzVNoBjMBzuR/sFzfLNy0mmDJlcmpzpRNX9fRGjLSOcZHebc5azHf/UB0EVCyVsPEG0Qh6ETW4uwAOErBa6w5H/GRcrwLTHgUn0PamVfKkL0YbfNAqztB8mH9XqW8HBy3lDzpNkFrW7yt0v7628oKXEh1vOJsQlnypFtpjaY0e69Ebq/1DxF855sFyi1lWQTZjDv0UuC+y4/RR9hjOvhjP//kRI5cZvhLqwNSv4hAYTXchC96kfeF0/qq727bVQtJprUdlxP1Q1roJJ4X6l1n2NKh03I+Nn+IVk6m09+eB6+gupfrS99KLAAPYWnu98Uk5LbnzY+QIllBTGSh1wvE6E="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAD",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000004",
+            "timestamp": "2026-01-01T00:03:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "aIOBz2XMvW5JYdGdx8LSvO7P5gTQkYvw4B7z+ZBIpyHjkhsDNk4fkmXifk6o0j71isVGYfNH7nhZXWyuAFf85qapVY6g7Wj55SpMcBMGmkiVdqsga84f2WkP6P/TnU9+sNE+fCK+T685Bac5/fF8LM3pNdQmOiraO02bCAUm8fSQcSqHeLfyZYJXrWzGooZztTuO6Td7Z1s/Ag/wVE6mrMstvefBzXzqfa8bYVXubxGPsVrqB8lLw0R9KdFoPIwYzX32636WzQwSfZ+E4CwrtJyR6LMUMcmZH++UQD44jsQ0OFN/VAeNZj3joh2rexOdbSUKK4JnWC+QbIXRABemgkp8uLQYnBg3VGqDKDmAZYGBhI/rZ8GFkXCe1jFD/j10lxAtz1Gucea4gYCGaUhb+5GxN3g8jjJrR7tYFHuDO413cdGNispvGTKDHwGE+3mxVHZN+BoteFvg3OZuEUCyp90O5tXYgo8LVrwdKGRmeauaX5cmMDIAciWhNxnLqtAgu2tKLG1qElhtYuPl87UwsnMuHJTlNX6B5w=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAE",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000005",
+            "timestamp": "2026-01-01T00:04:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "ahdfVnRWLJiybw0wdxQE8th4bTwJlyOI1r2RPrUaNmxN+xO9ymfHrDT+7EnFHa1/9HEHH42OMQ4HusBQeGcriieM/G4AeEpdg5yBcXI9QMb/qQIvcUz+u4hkQXmbdWodH4pqK3gYAomcI3DZRAVsNPhAF2Urtof7846hGRw/xC5MwPHQLdwAaFcl5tNJxZ+5DlPuKDx1O8o8h50fgNhQXCtH+2yFCy4NLlVB4MvQDV4fnx5OW6x6LbAeML/KYekI8xMighCHp2SLKR1qb3gDM0xmUDom+aJyK2YwmmXPAR3Ra+6Ybj6W+wLLgWxrEQrfXXFunCHu08LtM0vkRKqOVJfq8//1aGp17ZUzu0bQLfTY5qnHjRIW0OZhVa/FWHms+D/Xoy6FNJNttKamyFz28PyaICimirUPuue72FMe+8JlzbAt2XAsgRchgI297YjikBR6uuDD1oHXs73fjNBf1HsPBd9B5qPHN25Oq0TVo3OL54R/VBs7Y4rE5koeeO8PXWJFrAoeCAgshX5pTkaaU88Tmr2rc5O5DA=="
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAF",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000006",
+            "timestamp": "2026-01-01T00:05:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "mFI8s4HGrpfESotxIcq6P8oh0CVK4NTsZ6ahsvzxYBibyjulkpadO+7cgElOybCWLdY5FEAxE7NJC1Ek4IwuwV+wJYK+FYXqw2w/PE2fxAcuKmgKseuopNVc1BcnoXgxkZaeFCMcHT3EXnwhIcvKm8EX97lVeg4aiuYLN6e+QSN1CMN7rh3wH4Xs6MUl3mEeVC1Q/UcUQFpvvObDgh5RmfwBaoQHBslRjwhpijgSEJlWAEOLlmrfKuAsUbWqp2GeJibDXGvUxhkAlTDItVnOpV17wP3ZMx/iuoOyy4CGehdEOZM6o8Ab5Aqe+oKlWO4kGtxUYtvzMQJrBI3GXepPKQQeMrMqWaLPJj6P+Q0bQH07NCHKBD0h/vinQ/I3+++NfkPLkNxRIE5CWAODHoA1EgJQyeiFISZ5m06MQJHFIAmiNNyfYBfdpcy1zH6BYS1N7LPqIsNfG3x3m9XPbZ7yJ+Jv1hMKB4GTfhDhGQN2TgQnmXFwXwCnRhmhag/5/nqYQtMb6zCPL00vcBlzQ0fm0CmtyJYNVSc="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAG",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000007",
+            "timestamp": "2026-01-01T00:06:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "OSAxWPW1qHAyDesnOyqsHtOmQaIhAyfx4XgUAO6tvDCkVNMyOQTRKalD1nL3k1t5AAA0cusTceOCc3OPoI8b5Qh2RvFfilVpyqw8EMGuOmI2qTXF1XCzH90Z/gzUuTRw5ucPuBueSTUy0772PLp71fus0X1DPnYuD5PrUEBg8pxXY/yYXcoCo/7qimf9knbkcSMkUJzuGR6M0aNzA555E2TFYOsE/WKC5//tTszbvuvjnoOQFq6pMW8RQ2dbdSuqz9e7S/eHlLfSKOFIj6OY7xWUVEzzLiaRbeTTeaPmPSIHO6+eEzV4ETQnwnH4/TTGgQW/fBabZEEtmmllZWvefPE3PGrOIfeeCIRxW0KHbvqYNPJDIBVLYxlXbYhuinukGbpz0GfwzzBZUxYREHq4r8n5yN5q6wsWuGpp9/OPLa33l07IDprWTYDZS5fVdAuze+iKdZIXWh3hgKbyoUJel0rxZ10mN2bIa2dLrdQj3UXySNOEyLV39XbFipnaoe1X9xAeXcllGtqUWWAld7xeQzMBPCYvIpun"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAH",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000008",
+            "timestamp": "2026-01-01T00:07:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "a/T+Wm1aKEHWHo3a1vwBJZ4QE7ZPGsyxXwDSzz6bdgoBRu+6bb7mXkmwj8UimO6Ksv3u6ILSzcKU08wqw3L+lfY1wN5tDFKo3zIVOl/MHQl4SGtQPMOQAJf41e5nOL1K4toYxoyAIyUVjJfgrjavxJ4hbJgi98fYv0wLi4CyGFosJqH8gCIcWF1WXdal4TBudaRVrg5LdviuS9tvhP8LHjlYtWRtejrgw7S8wHnzck9Rj4rjOdsX8tIspyFS+Ah/rvVpxppJ8j5IbIBFfrLEvcSufumJscqYCD7bDN5Eoo/46UY+weSzmxc+JizPWHxKEOP7Xt16mBwF8T3sY9PBrvmXA4AP9QBXoI2aM3je0p0fO87t9IZZ/8ub8k9vPQs6E67+eqPRp61+pbI0f4Tgb83fhUtaYBL6O+EJhe5vsAy1pIFU76D8USmLcBvrZMC3P0WKq8zk0aqTwBNTTtIuhvYxl7JIIxyFKNQ5Ik3aoMoLPzBONMq5AGxvJ1JEo8orrMLZXhPNo0PcdlfuHk5xOiPK8aa+PM9t"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAI",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000009",
+            "timestamp": "2026-01-01T00:08:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "fpY2w31ySAcmdF4nRWwIffSc6vHnj48S2osD93jJglGR/8ohx2Ge7/KY4Ix+5cmPeU3P+LkYlXVGrwf4J+6kbdAN0gS5Betoo6crqiMMkJPS/UTvX4f496BETiulIm+C3S+VVwfI85TrdMA+VdEmiNDb9md/S8DHbfDo44MZbd4cFx+dqDsW/SPBi+/K1NT+p534K5QLSGL1u1Ki+J8/wfAg3tH+7nH3rqeLuRXqatrL9uuiWnubc08h5UBC2EsbFAweGHjsda6dokOkWwOqGrT9y+uUOMiFdwaYy7ac3y5CUer55zMtOXJaO+2N7G29FpFLc10F4ad8z3U4fvVkhQcdxe5eb9YQizACRcnmE6zu6M8HXieRytXbXvNfK0vic4NCqgSzmNuHBm5w8GN5Au5aqoGWbKkp7vw2Wkn0Jexm0+LlZK5UbDZwX5B3cn5qvGhyviitn4RQRpUrazfKtRbGrFcxW2J68FlE/IXhOCEk0FC4fWx1uvKq0Q5x0+ubB3H+hGtBLkOTv/p2Ur5lJiYVHQbky7kY"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAJ",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000010",
+            "timestamp": "2026-01-01T00:09:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "x0o8h788YfhV9nhp73FL3h/ad9vODIKUv64jrVBiuh4ZBxMzGp2wQGvwlG/m03/OhxPEsvbnksjT59qElI6jBr/Lu9NZXVZtrZGEVgD3itCnvTri2uVwaNPaj/t3bck18lyf265nhvtYrToNsFxGI+RbhhySHYTw7h9sTJ9GapXO1UDxs423kgXFWpu8oWYnz9hwIUaDVa4zVVOaW5omJXNwUrcego4ylVvjCglxOR4ogwxSqHGYS4YZXtXOzVmAzRjTBSxtIDbF2TjSY2FlqXborovTpv5C3VLdR5o7aRReU28Ty11px+moQ+JWhUqpyK9WTlVWNeCpX+kwN4IP/S4Oo+2onYohRBDGkVPzwdZw+XPtN9warpkA4fMI63nbByiYnkx7tW2HNevP3lZ3d7DLCU6z588fxMiutIDMmVZJy38Pas4wKtQAQ7OfSU2vGrlwcAnFcFkzvQxVjpSIOecZUYXOOV3fYckwCz/GriUe96HBwpWNoxdJUs1l9LC+l6QYEX1zvA7ySNZZ2cteNF2ibta5aF8="
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAK",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000011",
+            "timestamp": "2026-01-01T00:10:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "c0IP9vekv4gopnHhHryg/ooPo2OA2WGtDnKt5LfYw0PrYKl8fAgEZwBE6/1+97xoV0vHYd7zpSqw4gNXiY6u92WTj/FNzFhKWxHnVw64Q6B0uD0SnFYCKa0JYmQlGLyieRM0ms00jMSPAd1bMlj9wX4eAy7NOLRosPpvD2wb1zWahzWM5ynmbzPf3lQOgJpGtlcNYXQxw8exTPihmE1CtRueuz4REcOyd9UL+/TkQXI+zYKFYWMxzoebDGVqimOLO9ONC+5heFVc99Akxo4bCvrk1cAkAQCuou2NoA80G2Gug8xQfcokZA5MckYMfUOoiTSjBtmdlMnUEmC9DwjY6Y+WPbJSabbBcuVXRZxOeZSFAZcMoXDWTzVnOsoQiwVFFTznvq+HzcWzWedRrc9VJCkWSMtNpSy0TLNbA9NyRX+ASgkzynGMVnWtkq3+i9rs9m7mhJAf/Yppmn66qr2P9eFXeT6w1AYrnpc6HLyas27L/nOLVm84UfmiO7D59sUNrw+8uwo1YtkOFdrQAaNfJBrvJu2iY86A"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAL",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000012",
+            "timestamp": "2026-01-01T00:11:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "VTPxr8GLT5BALcUSi7fnTSj/WR9uhiPpZYfGK/tL1eHBlTUQDc10R8UYcGxPeIrJ1oZwO0xV6tiMKo9Tt2Y6CjhKGCcYxm30E8XXVpbyDZIrNFotlimeCRVzfgl41XhHwZHAYt+CfYK1Ihxce9zDbRBAlTlMZT5ynv7HU/KHkdRx7CBvtlIz69Sto/kW+3d7BBJVUrDO95KNYfus6WsPEiRXUHBTIwX8zxWWBgQykR7Q2efNhooFsJRpuoAQpcaV1uY82SLxOZ/U4hdX1IUETiqzB/6hck6w32Gw/+3Dx0amZIcHDlaOfZ9RP6h0E7Jli8BrwHl4rj7xkzSwXVj5t7+T5HNCLwrzD0JMjVdP0lU6wOyrUwlrI5SKDMtYUCsosNA1hhuYSU15Yjbpe3Ak6PkwdKKyZYuOjXUxfrbbgecLoSIJXdBs+HqdgGXjfS38XLk7HFw9wCgUOW/UAeIQ/nUI9YAhJvI8VZUtYVsMU45KuTESY89FvXp5qkrXQpeAPS7quZPLMcHHWROSqyVPzVAcRgWpTf4="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAM",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000013",
+            "timestamp": "2026-01-01T00:12:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "VAVPf6oE7jtw8CX57p+XP8jhOFLxe14EwxAefS90OEHWsBxnCZXlSmwh5oTNO4oMfos7Diaq1JWUimGgoo6xL6TMJtJ+eENZTCk4HlFczmZJxXd4wWhfII1SHfpoUS05LeZmqH4+6y7SGMsmF2Pr13alXXzAR6WWmSo7j4hvD5PChOK9h4x9wU3LTt3tL4Wbpn/hfus4sH6RlHXoPQ1RYQazOod1ssBlQj4rqNjWlbCigjpKxdsS4VfC5DXMu1KZ61yMy9KHZYj3b6rTzVCv7VojdXInTKjXT+L8S712YMAaXiY1m8n6AZi5GixVnbFet9IX8Lrt8iZm9YUOJjyrtgD/AI+vKSt9gF6AXoM12hziTsYywkJqG/Di+Mm14JDXv4mwgQh4nE6/cyUTPWxDd27UkNdp2Kla6QfvlBvDQjejJRMUI4TjEqrLWwgKh5StxvQRUr0EHz6BK/sef1n8XC5IHE7LAeBoSj0L2md6UoyMnIxzbJ1shkRrYp0B8SkeQ1b3g52OTGZN9Ee2hAf5X2bz4SVRNxY="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAN",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000014",
+            "timestamp": "2026-01-01T00:13:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "SdUZYW+GAELvfI2YjqJi2+Q1Mby+pDfGSg6Dtj+cIIgU8qvAq5oUoP5MFDwg/qbkVlVySr/i3hoQGK0Mk3sUfPknFYowhYzyD2a/3Fmocq5in/cIgRt7WleeLcwXfbFy2pqD/9apeWjFFa3JOUoSs/HdmlX4/HikhzseCVHCLx5pXeXIWlSLbuDlfXzn4gHTWNi7eH3pVYv8XtTWjM4AAKebXKSCIafn0jiG5sh2+l5GLfdFfKCocT4ycanJMz3tOk46MYLCGHIGa1pcePlQpPDp+XsBCr5wHaJUrNK3BOgK8cy2RHQZvsm6uQQl0RfRY6oCPHLeMLc1ssVKZNMoVL6sMxhl5lenBzvzi1KPvP5q7/j3VzT2C4QXGmFi0WgXWnkpRSgWkHEdtmY1O1dQYGchDlYZIgh449ywS4z1/1A8ir3GJNs6d21I6S7zibazZ+Hj7WfkleEU89Z0cRjE+dvo7XmzP8nvXA2TCyf3GWOeTkp+HGISrDzaJnamMFoL/8GrX3hHTJSFmtBizZ5aLtRgEXxOGGNZ"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAO",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000015",
+            "timestamp": "2026-01-01T00:14:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "Rsf2FAGSK5REIhO2ybdoMlEV/OQS/wQ/hTqSx/Zglwp3KCbbADfSH33stmOqjmhNeq2mQ/mY9qZNXIFOlCO6TTZDCd6t5Rc7vB+4nVu4TIvT5jUqsmGVMbnzp+yWkujkpYMD0ib/P3IdtVH+cp4eN15dwnUQ7DzTu9fKe4irxmZmBrFTq++avw8EFmedTnElgij9xH4znECgcTlFa04h3Fm2nAjbKsHOpwk/1bQJRvqUHCs6LPfR3wDdwxAlmVmSrqpBsorlPVqM2qDgTy+GJmk5QAsGxHiBQYj4xVsTyo5M8wIDYOMwuphrr3EzTtomJxF3Lro8YJzFIwLygwTJF+i5EadqvEtr2K76SPNXKerMOocl9Ogox+AhiTxeBRQgd80ws3C8mgzL0WyD9g6VzGozJMsSLy55gRRyKe0af0XAIMyuMJZOf8gyxvRFNpvw8kWJxkYK0olzZ/g85pJT2SQuC1qzN+yHlKJ5/s6bCSidWba/oTRj+iy8QqyYAGhFUX2PYEk93LWzsE6QtWzkmKVWaiKoQCcs"
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAP",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000016",
+            "timestamp": "2026-01-01T00:15:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "ZNTfAOoaE6oz/aruSt2pETkXE2waT2IJGrq/seS986qnp0n9bTEwupscgNUnnrNvUmPZ+g2/p4RCpwkrhR/lxufxMAoGFj/yVrBzKLFMIscPFk+xFO9OkWgITtHTeWxlefwaCnzxm/pEaCqCg5EFtZ92k3JKUnYXv4OzomWqOIGWlFTMhJ82vWRbqEZzhQjToB7+5RELbxlGu3mYQSwLLeCRhOA34z2C/6CEpx+q9kOPvmw58EQR+OQ5fmNQ1YNUIWWdA6qzy8HZrOzV7d1Y7whvj/f4FGjy7F0ugsfLCByn4XFN1mhmdDkEVJfwuKv7boWlkelxqxIJNx/9CpZ/dvnuxR6I6l4Zw8D2IqOmcl0VOL3c6iAVP0GPEXbwTpCLDIRi7nB55nGTLOURE0npXnL7r3MLfdB0quTNaMbFSqFN7zkDO3WY3i1BH4se5CP2VGjBa2dsb2dV2IXBH/G8Y0VAP5z0nKT/80twkEDoXGC1ZwxhJNQXrNFmCXifvarOUL9a3WgsRF0sDHiiFIrz+3DVdauAV9xe"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAQ",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000017",
+            "timestamp": "2026-01-01T00:16:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "BXdLipRbXgNTz1wSwG0ymgcskLzSUbbcGPnLbSaiQVzo7bI88RyGsjvHdsRImvoM3lQFu24lnQYvLvhYxW+VASQ6DyyKta96t3tb0vPXcBiSDbLcGyTu+1F0T7gJBhfzKvT3JnWhRVUPVFkGy/GHm4n/6DQoZKFpwpeK/lM95u6O5Pjo4SObtIrEW2LO5mUM4QOadoXrbZ9BW8JpVnYtiY6Rhjq/k7E1hdsP7F7FIjHxcuS2Leo5Jy7mVVvXlHhKpN2HQPgWFIrLftM28FFzrPnWO7MtlBUsb+1Qi9DizHI8Z3OhrRqn3Ubl9qIIAd4WkrjXC4x27+QtxqFcfdmxge15X7Xj6Q/bSt9644aSDmQfd/9dq/TOq55a2Dc+1fgboZVe7izf3rGPUZ2Rqw0c/aYx/3D32gd4RIc48fOti5OKTfMCM1/Fv3H4OL2Pc18Yn4eH1KEwv0rLJ01dpwXxfv/mehrPDaasqVS65jzK3Pnhb4V69dyq7XfB+xfMBZ7V83Ue3iUVoyqk3ZQIePa3YYmK+k9auA=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAR",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000018",
+            "timestamp": "2026-01-01T00:17:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "SlsJZ01WDWkaTFJzzZuMIBXnYG4ZH/97IH5aZOLNtCxeSIbosauyJzRgZhfogGGavZekPt2uKRKyhukvR+yWMXfAyLGd/kxcNk0DU3+1yFBrhj7CJHn2REXawiwMfC6ZcqG05zrkKAI6Y4Ela43DHGgX/DRFuHUahRsmcIir8G2Yr2aVTsUdO8Rbz4soi7vjuOV3g1H3W82mx5Dh2iSxA9MdqtNbb1u/s5Uk9GVxhuGQh2lsjreI6XaSfaU6zuxuX8R+jMDzoJs7lKg6BUg4/groEZqlHp52jENihB0BD04GD8+ZXgEvw7CUuZYDFK/qUfMRVyuPsTQCPn+3OKmZteTgHl7ELAomO1HhM6RAgypNYNgIZkzxCE4VaNViTSJH5aBaBrk0NS8ll7WQ860rXGWC9V9qGZtSzdJQdoqBa7YhteU1O1G9x+AlkZEnAIwWZdh/ol2nMhR2xkT2Jga36dUYcaqZimzISjkQNCBxCW2XAKkh72lT80iDl3prXG1OGeNM4K9R+R+oN+SZFE0i3mqVoJoSpM8x"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAS",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000019",
+            "timestamp": "2026-01-01T00:18:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "jr2P7DBBN6l/eZifq2SuaZrWlDaJbKOBHGOkM67aRRjOfJhJS9wG+Gd77ZvNDUIuvZWkFo7ra4TOdhkr1O83D9HAa+FE9lDUpQ3JLXEtjkCkZSEuVGsk6AERCvZtEZ6PtR0cZpvCTEIbBgT2FULYrMhCl6KHl7eY8toNMThU5xI0BV4qy1rK/Cb3YATzsAHYvWd98qHngJVs6nf0cQ3ImWvWWmwGHtabDG4Hyvbh5tbua/CUSNKgdPMpYE1WlpQ9hWIwmZCylTH8L0Ps4GzZDFKVItx+o3CjauLl2uz6a1yJbX6i0qZTzEyJlvJp/MRubMo4WHz5tbFhaSVERK8/S3YsLznqCpg5FCS+Gfn1E0pLUtagIrrgCacmOxI+hrNWKmau5MikHu5m9qp3f5M2xqpr4XiB1v3TmptGcHwULajfMzwKM7zjos7CILbPV3IVk5yvwx+VGQAmlPvncwUsnwMAS9QKqjQxQGWJhMl1NqSh2PbJ1saEC3uJbSbUW4BGyyinstZdCQJxpvyDdnPDE+AZ3JyGSfCd"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_004",
+          "key_epoch": 1,
+          "key_fingerprint": "203e8a2c3763659c",
+          "nonce": "7ussvwAAAAAAAAAT",
+          "aad": {
+            "device_id": "SENSOR_004",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_004",
+            "reading_id": "SENSOR_004-R000020",
+            "timestamp": "2026-01-01T00:19:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "cGm6+Zr4s2wmq/X9qethzX9tncSxk2Qyu6J+0XECoBsNoDLxtxzPfqgVohq+v+rp/aAMgfb2vYQh+t8eyatwe8aTzanTAn2Zx0XKBogJtL4hJdwIcB7Beu+2Vxko362c8iy5eOXmg2CFxUT8mLcXeW08vWe5ZDHgXXp4ZqTjjYFiyrH5b0QFpGm1IoiIeUYuMGAFFfYFZFBtR1SksEUftkG9Qr7J9F113LUQlHEMs5cdBv7sOQpmwQMif3ljHaE0rBf96dfD+J9UudzlMOznafph1JTDf7TyHBqxu7Z6l9Z8nMAEZZ0vN05h+FIrAvkiB0PHq7WiDXr++tofNpzQ0x/kfQ8yJ2GWUH/BIZ27qZ0sE/Th17zvxGpqAUyh/1136KQwpN2Ci+x461N3PwVNmJ1jkYJppzL03AJsPz5UmgB+fJztvwpc0y/98LexjoC6S/yDxw5nWXW3bobNCK+I3TkxAibaB3YvFIP+ZC/OyxWdFio/lwxhnHiwgfOFZNKrLRxLXAkFz863kQwd0LMWYJXLZbsLcRU="
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAA",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000001",
+            "timestamp": "2026-01-01T00:00:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "vNvx9vCrMrmGrzQiwWef4KZ1s1ANGQHk0S+c7HSZ5pnm0Y8/20me2+rLjP5xoyDgRJpYggcvo2W2F3cJqxsDr/OhMto0R9DhQEXq+/vWFBTptUhhgWjvYVFxpwgkHQK0NsvzDBOVkER9RsjD+PfPxHIUs+C8+OeGAc4M8ft78hvioawGPeayqFgmjzYsnIRE1y5PEiTDVxTUGH3FdouIWGYwJnWAZ2VgfLparo4TwRVnnrMuidRGXdHgNRKXocXdcWq1Wtj14G3IjDLRGJnhX7O6RkLYEy1zXEd4LD0XDds4MTGVCz+VvqswYujvSRfIdg9wapedvYyD0Fc3bFoDWMH9dNUV5jAPK+qigEeS3GY/zuUWR0RHQ0b6HfzWc9Y3kUJ//ta62eSXpAuzoOYOupw7VpciN6oinREoHUOBTiAGnoQLLbHUnqa1aVunV5PT9sFc/YKyA/9qqMu2yXljqh1K4l/qm7YMu5nZOrgh1x4sjtoNi6xhRe4elIFWqD5Q9g41o3gNtEkrHyHOS2U893Ono5E="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAB",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000002",
+            "timestamp": "2026-01-01T00:01:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "tlZGSzrEjycuxYqVAUfNwtou5+1Vpq6ijzPXEdh+2EOEGMZps9Mlws87U1m+izupAY9ty9TyrEWuJ+o4HcOYhjqcikXt+8go2uJw1WqByykNfm2UF7uvGiweEVFt6882bBtP0os5v5lWXA4dHk6oCfYVOb2qPTpq0K2ahSZjHt9xak4ASz8vZ+8h9jIshgxiIK6W3aX0V+sK/nnxANeTwVlyPrFtXrb/DQRPQujYnmx7Dw+GJH0vjFCWIyKZrwFKnI6/FefBtA9qKvRzXchvCfXGLT+YIWPf1ES8g74gngkY6Bmq1lBVAVyiW6umBYOQe5V70yemCUv2qiAQVQRP7jwdbn5F1CDiph5ydskgUtAslJsOk4gbl5i+08d9V3SDbfrawKJF4nPFqF6dLRyaEXrHD3zehpQ+2trcn1HboWeyLPxCRl4aLyWvCE8tc+BelrlYgzHISgoCnXO0MLx7Kt9FuRGRTSJCc6WG25KwEmITjQJLOfORM4PK63TrzAwTKd0iQtOHV1KAW1nuIdn8ym2Z7h1GgA=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAC",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000003",
+            "timestamp": "2026-01-01T00:02:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "IcUIuQ8bWdhjk/M0Bukiq+w5tkznbdfv/mPgHpeXu8wBYDMe0T5byOT+rJmoTtJylAgTBPNI+W8uL2LCrlFdyYYlA9LXKvArI0YbSYh58Ytm1no92f1YT0VxyvwuIdygj7Da4pTq9v7nn9ANP4UoEDXXPR9I8nTj7IlvMZMbTg16fP7T7X3aKXL+XK7MJWo4eVMfKRS2R8v826UlzsdtWo/JXiG4bz+Ncijx0NWCsBE0pXfjtsFFFYuVLhIGgjTJaj2O0ewubvLAWjOFiqk7lwkvweoGq14kRVHFKSeiwJ4emwKtEYSVgTfIzzyZ1w5E1/m3N/Qn7ASPyumfFCsu1dOOB5v78PuCpb6Umk6rw5CbXOBvwsGvk+/e6OtftWUPfFI3cym7iplBRVWwTH3+aQRH7S5lnzFHo7OCNb71JImtOtPD9erLJL6RB6DFx1sE3J4mZ6uWQHqVN1QJTyC2G4x/uexsx6sJ29DEYzdhrhq9H1i/GBr9rTuyFjtrkGuwn9HWtIXM2wyM+NNnlGhMJ26Yx295jYwU"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAD",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000004",
+            "timestamp": "2026-01-01T00:03:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "CBhbjLF/NNDfoR+Wvpi3UNPf6MW5yK3L7Eejqmd6UoYkVP5T21OgeLpwGhDq143S372HyYN74VFQLPoedin7l99eQPHUehBYvqJPbD4mWowe1L5trB8QICKEkjeGGWsWpEFWuLccZuta27gEwoK4vykQGuYLR5BeA0pqP0OXnm/9LG3uklsGtoz2wXoWtiIYONzb2e/5R8otn0x3x/0MxSaejCN3JKE7glTN9slXteloU7fWKrpPSu7KAO/909Id87+4zlxBaGCxrtEPrlvBK2bVjVTdjhBIC8rLBJX+siNsZ/6TASJ5LujHO9C/uSlL/B0iE3Ijtc+K7M3SLrkNIr5HoiP7GdgOtPb7sm4tbisN/kaWN13xej9PVyeu9vHrDnseYWlD3XKNFagt5IK+gpmKxW5yvdXBI6L134m9Fm88aA2sD8pVDLjWBIxBCIko12zOlFoRvJLQd2MXlFPEMFRp5sEK3Fg7gts9UovQuMIICdbCEAvVZBDI8qlvwtvNiFBCpKr4drLJ9dhc9yvJ5RxV2I6hLQ=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAE",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000005",
+            "timestamp": "2026-01-01T00:04:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "S6g1WHbnMtT1hbVBh5mPi5Ky0ZxXX+vwTHlcmgxRi1588BKX4nx5F7dGbmdTwnRUi1xz1vJV821dTGTB1QU4aQON5B3LZxsvSjrhLm+7dOZrG3J43m04w6EToHaeLxthTsiTsZbC/nS/9lxSF63cmjIot7QQFJlLmlNGOL6XKNkcp0+AIBfUraupWiuquCwyhtMqSKD4Oglv37o+zycSZIb8FYtl8xva0t9jFIeT3h4ssUQ7yAzl/Hc1uGe5njrhL2qOij1CjPIxvrcHCSI61mPPnAXgA0MAV7yy6ydFDlBbjbHgyDx9iz+XI/+pgmpoQRhn1R412KJmsf2wItm52/iV2XMvlnmXlNDUEQq7Iv4FB8rDVtnl9IR874lI8zmiSJVENH/LAE5SThHkGgUzg/VStj9jy0Iek3zfjCpHrgTzNBng1wCF4xmNjTtwT6Ddst0WXvYNrSrbm+xJnkGoFwNlpsOrV11NOnrxzklN3jDajtSMYIqiqyQdQ+RQdDT+tE3BDiV4JYp7Sl+Dz65k47za2bi53A=="
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAF",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000006",
+            "timestamp": "2026-01-01T00:05:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "sxf5qoZo5Rw3FoE1Gbs9Un4Q+6srgufvORgmg3zyekiLPzI1CqLSCiejGLLFMTULMtYrxLVBjBMPdCU9X1dtO5MoaNFzqZfikCBkodkMDBcSEVEBD5scTt/K1ydWA5g4KCHQlsZ8FPNFFr/kvxFrZRG5HZdlMm/DgAotMcRjJEtyxYP0bSnnRfZdBNVA3/OVj43UBy8q2bmkK/3Wlo4JfYtUDCXyMMA+WR7Yls1fMTe+HsHEG7UeYW4UjcLOh+0THSv2w0Js8fwUSYxhCUBvquHXeyPpXxgdQHJLQKFpQu2OwN1EOxCTcXHlblvaVLTkDeRAP4nsTxf/bg11Dy1KaR5sdTPLe0Jg1WsNc4PLCZMolojFAibeEAeVEO2gx4cEv3/vUUERGqI74VqKtFAhipIdTYlZNxi0xxyajhgj7jApIduXDmLnWN6FMnSOrRj5rjf0FuqHWYoBaQFYiCBSRNWafPEpxgUVV3Zxo/ZMqpyjwO8TBuQoDRrMj/uzlASOCgILfoSYa67Us4xCcy02haK+6MOFzWE="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAG",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000007",
+            "timestamp": "2026-01-01T00:06:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "IudNJRYnN4iZuy8Jz4E08FCShGgKXOHY8hBqcIKw7kTbkiUIsK2KPC22nyQR1z1s2AqIkmMbrfgG1jz2C0lVdsIra77MJNfkHAtPxIQP7HLlVhMcAAjBnhgfdV1fto4yeRnK0b/gvX7IBAZOSfbDL8XVsDdKIBYiJH8HBH7Du+GGhGMaS/ahavvEkgfxgjXEh9p1R+NcvHc3VWrae0Tk8oUyQ2LXBYQhjJJlCiygmFjou5sjwsHHFeTrTPznf+uzlr6p4ctobBPcbWVMe7JKtyy6IgMX5p+hBB+q2EWPoTN4cNyR0ie/60Cv6UaeCbYGJAqHO4cX6fO+cbYmcBTNOMLxIP/TDTZER9FFU/2x/hr76KrQpMj57ViC+heynANZ1Qzi1bZoe3ur/xF0KVmAoHLi/HA3/P6jVFnt5oYtEC92mEUo+2Hv3lp7/RiJqe7QG7hh+GAzp/vEj6Brir9s6ldSmEw0hplkN4a/F/2iwjGgHFiUCuffgnrRHbOQx0APbuTPnqhOSYh0PVKOYJIqQygn5ig7FzAU"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAH",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000008",
+            "timestamp": "2026-01-01T00:07:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "qnX9gxLoQoq0HX7VyZs4jL6jrOloUZUflprg3/NkDiEEWABKO9PStlk+m1BBc6CC1XRHNNo+CvxTO/e7i+5ZYAkm83Vlf+6XCEn0vYryupdDmkKU3GeNIMh4QnZp+uExBn39y9DvFpdh9xRQhBcDSL2fz2lSMgRQuIEQvgDPorX/lJEDp5YLXRA5iLXM3JClVvKjr+PDjHv5gjVfxu8HHTmpIxv01u4+ztBb9ZR3wadyiaxWrMkBpgTVXorb2K1CgZ5wzarjBtKEPr19KCB+U2qxsMS68MVi8NABXWxPb9fvZ/QeC5kbV5ZnxbPfJz+bMJLNUXzts64kmrF4mKjxAmLXAU3PDLT0FDLFm/YOZOT2ewHgSkD/S6SKRwuy30EB38BKFLWJNkDu/xl9JMNHanl2rlZJjnbCUTS8Be+N5yubrsdYPygjbY1MsUUV+OJYhHRniSmy7VOEyxFxy+6wVOhp5PYyV51h3P+pn3olU35k/hUJ9RpppxbtGfeHuHTNO63/QFbqFx0q1iTKKvT7bb/lXBvUKreM"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAI",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000009",
+            "timestamp": "2026-01-01T00:08:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "dCkRRQOAodu8k4eYSOLRIQKTHUHToBlO63OL+QqCAbfBHK3UKgZR9Oz1V3N/YdeYUzVjEAldZfs6JSYAM9/quIq5f4ElV3M6NafAb/M2sD7ZaeMI4gmahFuztLjJJECuxH6uzZxV5swoE+wL1B7mlElpHYKGztrKD9CU0LcrK2u17r8J0Fp+TLZ1U7wt2gsiNHCfWDRxitPQ2/eur1D5uXcCX6xKrPKigKio0076CRRyZWeROXvVrTagwj+doUz/sWsgeiCB9Ey6G0wrlW1dO4G0uB3nuyGBeg2pEmEpeABJecUR5jIJmu6BEzH9WSD23tN4pjILtm98czxG6P+nYM0+Ci3u4sUNPpVvOWA/LuM2xZYpPpRv3XaY7NutkOXDqT1rOHnlvrK3KlLRfR5OxEVSXciJHOaC4xM41nQ1zYKEO0BDuz96gHLj6ZI/20oLd4ztoEWHp797PlLA3azFDPiu3Q0+BYeSGi5rwNTqI9JiH9EkEWQMH9IMZibJG45lhzJV++ePYU/YgMTD3iM/s1AkS5oOepCr"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAJ",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000010",
+            "timestamp": "2026-01-01T00:09:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "gZI6jcWIAqT4Y7Kv4OKGplgdvWdvWnTU4UveWHp0Oz+TBG/t/DDipzSg/vctR+lo/VAQS5S2dHtfwIH7EipN3EFbKZDjdxdlNUcrPMUao4wwpM3SDvN/ozDD6LjZMrcMMglW++NRm0cnWpvzm4ZsbtB/0FMiUGxB4Du2mfPIlEHI0SHeExeQQIdFzhy3/5gBxueLDHc/55+WhKjppnzWu4n+BH3gEFXDfboG3I9v8cf8AGnq9PKazWZcZ8GXSoR7yE9QJjyhXnLt7WCrIiD1SKzwjl+tI7rjyGD/jz1fc//ZcmijdRiyx2G/weG5zJ2Hv2MiihoS0QrinVxe01uw2OPMQLltWap8myh0w5MstUxsO6k2dZIFHhNhkgcaNg/UwfMYndRUV1MgqwQtzk5GfhztqVV2miALtuuoZdnIRwH9xSVkF2DHae69SiX5O+DiPeUwNfN5GI48lTUgCoEFTBISeu8jDAwC0kCYqa+lCeqRUOM6wMqh4pbGCaOlJcN1EVW0ecA63eTt1DQRyToZlxM7y6B2kcw="
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAK",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000011",
+            "timestamp": "2026-01-01T00:10:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "NipukQvgFHnCRqrsRh1yBAaBOs4Poy1JXZO9WrYTP9eDkQ1HR4n3/lNgwEI7wdy+8mbsuEHA32pswWAWoNs6cEV9mme4hKjyouBae1+7jBTrOxM9YQ8y2+gsfenO8fbNIIWxDSVAd14mUMcLCUHo+52TEOmfHe1Ej6lqy3Lhga56waYZ2Hd0Hss+xY+J+hZ85TpV/s/yYAYHzFJRXSkSSGSG2jm7Jq6lz5VJQw21GcjOwLFkhXGv15U7ijuWp++6LQXp7N5h/XBpdoRlMbaUS5KetxAhvLPsEPthknmjC7I6i+wbrvA/VoM4VrfXmOKlu4UKYRyA/4bPPXRuzt16UjAeq95Y0l4742nPzCdmn/4MDfpjS3f22eL0Imk/F2/CKdJiQPCUsYN2ci4GIMk7OfbUS1lUx1R1kNnk0niPa5NQjD25GAFmCA8oY6kOlCUnrVigJ5Zq6iiLGoNO3lxQl4gf8ibsM4EYlRSHN3gnAv6TtZflRtpW8neyOaoLWYXyL4GHPqbzIV1YQYS/Uw82nuNjKlmiMfiW"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAL",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000012",
+            "timestamp": "2026-01-01T00:11:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "4XnSB2822RM43gZkYPUPg5H/NQc9hT/zidU4yFxWFQBwyFfriCHB0eHbhOpI6yhbTxObBOVyYsFC9CqKbPSbAeOF9KXNmitIJerJyWjQBFzv34gyFHEAg4ewLi37dpAvLIFoY32FADuakYTONpF801gkwvcNpx80AYBKQFSehPTE8f8+PMVIgOS6UfERKJCFkjQgy0/xk8i53NeGwqu4kaDKlQIJdY4V58vi1bW9nzm0JGrTlZBMy7UnuA+q7libyx3eVR45NTAPGJgjvA82VY9qqMFhB3+ElTG/zHi4tokp+e1ZcyPKvqxiVamStOeRNKPE5n71eSJKldVa3JfXB5Cci1J2arTWGoX+lJ0s2HwfO+oEGcctUF7SRF2/WewM0YEyjC5Be2kiRcUah3yI5DcK1SbFDd9+vMDqR+PF0sM6p27gBO1iTxwcN2aRlCZoj1FmDFd7IVMvKTP4w4b+THPcwCYgugwOkqO6NGeoHf7iBoRMlxVs/06pJ19pRAbgeJnx8cXxwe9DhgIP4COdL2PLfYNdwhsP"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAM",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000013",
+            "timestamp": "2026-01-01T00:12:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "72nYZ0mt0dmzhGJw24hUFhkf5Xt/Fokyq34XNjsXNwBJq3FsmhRT0js/a3x1Yq1HT2B/DAdd82TulJOLwkZPUIbW9/P3Ccd19MV9y+IcTd9BmgunGEJ3uBfXbxorTxQ0IIobLGTvlJgzsCXFIEx1ougQN8gxqOxonHdmO0H+3hdUmlhBnn2Kl3jOaVya36aRlZLji8esuv1xr7Ho3vxzZWwo8J9K8huldTMY9gCgUvJDsUuzUncgZ/0XUX8fe6ZCbRrlfGfJ6YW0lNJ0ZQCD5WRz+uS0jRbu6O/ptQmvSDrb1YkMcl7dJ2r0mifUDVf5SErHdp+bziT3wkiusxpFuqpqATuCinNdZpwXd4TzmKCrkNDMBakUae/KxXIZKu90pMVIrSNoK3GNXvlk/2Rq2cbz5FQ+QOsLBgLF+vKARtCgdkG0EfkF9reWnCRisOYwOSOCnK9e9DoGfFz5wPQW1FQ5m2TTtaSVx04o13rwSIiSX57O5ahNkk2uinSrqaDgyN0mhIT2TJej2r4TovPe8qlTSkWMCv8="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAN",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000014",
+            "timestamp": "2026-01-01T00:13:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "dn+LHtvL9JLlOo36T+cInruQoVTz6AIXmJEG5RCfKRLC7M2D+Sah58ez4+X4lbb6k4H2qGtZuAewIuBcwJXACaxgkd0i/Zvlo9kFZ8L2SX3zgeMt/k04ZuUXXTNvdal3GJt80rrR3DY/nmOsPb+jaMZSz5/4YB0+x7R8Rs5n/o5VL5jfdFNIEOAQ1CVoZJ4mtHuRd/MH6wGZ0d9MclCoDb9/12dtH4ZbQxCM2QimGwz2tSETbZEnIwMnKbq8EqJNzjvGmwDI4WzeqITmiwbOlKmgmDQkVo88qUd1mxim4WTqEoTx3ZPQDoe8+lILx7zmvWEbvGAdZ1SJCUEMD8QfEvJGH4OzBYcKWRgszRyS+SfjaOGfQWmdLyyJZZGe9nUxLrcQbkY1x7URSNtgE2CXQLw8KQv7vgPRSWcasyv3Bkv+qsDqSreeE1Paj7CYfOwdK9T1eo27KsrUwdrIZHDIIVFHhdDtkQUYsr0dTE6tn5/cv1O/WQ/9HOKRZLClLMp/dsqZ/qJvCcnfp99mv2K5Ope2a0j5sQ=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAO",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000015",
+            "timestamp": "2026-01-01T00:14:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "b8UJJg21cDWbPXZI5eygmBQ6gOFUvqTp/H4e2YAOhXYhtzUZVfsYVKx3rJeN7b0MlZWJXLopx5yE1kj0Ji/0ljeqSphTT210rYcwFwZa7jYdIwybK6NdNMLElXxcb+t1mIgm66hWVweZiEKAAJFuVL1uovIrCK/teOUD0k7jbQmK8M0950B0CgYPrgffHnaHzZ3gTScMeRTwVmCLmrjG9G6q+lXbEeORNge7HkK+C6PXX5jrWxgik8pxrzRht/KS+FIOzAyIIY8oyGUGMGiO6NJUH6umuqrHhk93aHVwgS0JpuSjU39w56k7ga92NNuQQXspESyLeSvoR2iN908NZfHQuHl7RLqCN9CWwOXREi20nM/RcnUzryar0K/xsP2TKgJUFEMBjtEgn13N2ni1FXn1itQZJJmM6oV9Ry/POZws8TSdPD/rZ4ixSHiNvSUO/rzufBfbWv4M0+LVfoFa/pKhUdbAfu7S16/kmoY0QVlLHV2PFs3C/6kOTC3oh4jhq3LYeftlx5g0Rio/QdXBVt2Ww1owsnlBLA=="
+        }
+      ]
+    },
+    {
+      "batch_type": "NORMAL_BATCH",
+      "packet_count": 5,
+      "packets": [
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAP",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000016",
+            "timestamp": "2026-01-01T00:15:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "s1ZLu+aBvxbuDzwO6fw9SkwAEkfHQMSDzd0S7OoFM+y08de1B8/5D8fCxA2vCHtANJ6WZfBl1YyNgMZznrI3bDmXCq7F8K2PdzCfeDQuQ+HvueQSm3ThoA62V9Xet/W0bT9fOlsSasYFVVyaSaM+ZLFdm4IPGhGsG9XkafxfcLo6vqfi3XH5fVBsST7lWIVP9chcWJIqNzQlaFJZZAVFELLvsf6x64LHGWtnrNksbcnUBIjaFEcALWWCabMtM6+o9i2ttMqhrP2fmWAgpp1xwd8AlKK2v4gXogqRqI2PksxVW5JmqxiuzR3Opk1luXC+eoF/YoxfdNmAcNmdBafuAoIwKJLhfk3sn5LJpjCeMeI3zPJoLQPCMFvU5+aSO+TTZnlqc/1GEnjSBcknUeKT5xu/bQAVXwTt05WCFriwTWOmSMWz/cBFSd0CLwvk6brJqxnbEBofBQ4nNtzpTHs7NmP8SBfT1/XvOncM7PK53syXTKxT8uoP2WRz9WSF/gbFuvz3YACWIrKgH9+Rw8YZl43+/87TN91q"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAQ",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000017",
+            "timestamp": "2026-01-01T00:16:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "dPgUe3d7lvFWmVGTr8hAks5H1revv0vJiZADKw6efnDJWwAfcy82LVuoaJf3DS6TH+R1Rmd1NDoBzC3xOl6Oq8uPnTCo0YyuORHfNHSoEI714P/R5CqlyJ5OOW/CI6H+233btgN+3PX4LLYR1dc8PRdusQTfQtNt4vkMfdggO9esMk/rp7FVINlzR4vDA9mtCJWMPeBMN2VhYYdrpGM2JMscA/f01JK7F0wTr6Uj0HBBfxjzmpUm4BGRuLnp5nsJiJqns4Ogmys0vf2dRJuRxRT5OzkNiXsqZzu4+LiRS8thjrBQ/t6X3V4hz2RqQN8b/VJylzn3Edy2M0kjmC7Ax54NYDkYUA2g8GuESqZ76qshTaVZUZz1x54Y3k0umMoFOZR3mupYLKsqKpwe4cgxZgVUYoF0x5OcOPrzJm1Bki6R9SqydY5z0Rql+Jujzr+a6VRWBULcbz6CXYdpOd9PIpXUQ5ufskfKx1Y0dAP/9OvUAX2CQanbD87pJrbgHPG6tsslEDmqjX0KpOGYu6rrOwOhEYekiKoV8A=="
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAR",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000018",
+            "timestamp": "2026-01-01T00:17:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "z7HWiXgbkbs8LMiCguRMZeGErbJprXRVqxKlZRkx3QkXrwtI3riAEIzKTBA5SFXGhd+LFxMGtTmWVTBk4FeTwgSLJiMSG4SXIWZ5QNlQ6BENNSvDJb2GapjDb6x8C9dZpRR58Crx0wBRD6o3ZTVAVfYgnepwNqsTxHgdcOL1dszXRe1va/W6p7cgrAfEiNhH/jN4Fw9z7a5avDUl+PxYTe/8eBHp37ocvrDkVFJyf+Abaf/o0AWUVZxgQ391zKv34nkQp30tOmN1jHMyXTnFh2GTnXXJRv04Q6FoU16LYx6U/Rc2GKEs3shzxq8iFt2ldi/EfelChxKOkzgf4GPMWjhVU7Qxl4qfXPnb9H3ohPRqCjGI5qMrc17qye5Czqv3A0T1UqaxDVoiCldtxp4WiyVthe77YS+c6ClPQKY6TFkvX5Q2xSXQaJJtVhYHwxMk1DnpqkOsDqlwz2NIhLbuXg82bX9V7oTPEQb8+8/fU0YBVPVUUhYtQX384YV285YnWube5cqyo7PIS+RnfaMlHYIKVBVBzwAq"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAS",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000019",
+            "timestamp": "2026-01-01T00:18:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "69df7HPzM77Gla7SWVWkL/PJMlS+yx3roRMLrbmZwxJJ7+LuVKG0nWCrf3w1vUS8EkM1ZmfXrL1X03Sz+4xqhO5b4jq9XC08L3aos9hB/hwO5hW8edUCknTaPiiXx8Hs+NLMlkqAs0bqmLA3By4dydSdYQNrcucb+fUstjRquWSiyzgVLWlfVruPOVnfnkGQxmMXmeXkjWIrdwliZJ+YKPgk7YGhYnQQ3QpY3+BBNbC3HJwDJAldNf0Lbo9YNuO+yDQizRHOS9nQaWiug6eTLnESjKGXO2+l+wTGhwXvmOHpV5PWljRrGSTH0mJ857+s6CZwtspPSpfwpjX0FzYjKJfnllY3ykV7PyipSgXE8EVd1WhEhDsZChWJ0T54Pe2xNl36998QaCfJD7I2o0CnLudCTVHRRC8SPYfZzk0MjeBOsbl+6CbyrbArHNKsK++Bj/ymgB6qzJBPX+BA4ExTStVMuUFFUnDCrW3lD82hOka2z/3DoPanckSWxXomk2ZucgnF1HNBedyXlSVFt3fbzHRGkWq0S5Mk"
+        },
+        {
+          "envelope_version": 1,
+          "algorithm": "ChaCha20-Poly1305",
+          "kdf": "HKDF-SHA256",
+          "device_id": "SENSOR_005",
+          "key_epoch": 1,
+          "key_fingerprint": "5318113361a0cf99",
+          "nonce": "QZ5xWwAAAAAAAAAT",
+          "aad": {
+            "device_id": "SENSOR_005",
+            "key_epoch": 1,
+            "sensor_id": "SENSOR_005",
+            "reading_id": "SENSOR_005-R000020",
+            "timestamp": "2026-01-01T00:19:00+00:00",
+            "context_state": "NORMAL"
+          },
+          "ciphertext": "UkYg/bi4eXT7UXVbQNDp6GRuNK9k41IEGWxK1tOdCXBDTxfcHaGNe0P8oc7j75apx09+/SSwaQNCsjnDMJTy8ymXYnn372Hr6zRk7AK31u+ZmzmbphEt+UhXdaLq2h18Q7etUeTk6DJkXte7JAqmHbZ7uSFPoCpjBZyl9/31i+vbzH2DDcGJuHgrg/+lOYKi1SGhn0QebgrNwmxTOC13Q7ZkTo5YBhFZfR/E/e/rg7lKKvO68mTHaGX+49Xn5iTq+W/SOeMTMN3RX2VF8xHmenqFvIRHzCfaG+nSqfOyTQd6mUfu99QYy2TeJ+ZpgU7FNH9e395R44hDEbOC44pi/D46o/4WPfDQM/GN/GWcZrIAi+vS38zmckqM+Eds/iabOlAOkVK9rqs7UNX1C/zpo/UPDdarms2xDyxjY9MMBmDy6pRQTQKdfEBOP3YD1/QHW4KUgon/dd01tr+bE+xv+JmmP1xFSDRBJprxc53QUdL8cMh2TzjE8AF6ez82zYrS2avDZmZ7za64OmoHLF5+9XNhYPBK5KL6"
+        }
+      ]
+    }
+  ]
+}

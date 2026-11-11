@@ -1,0 +1,14 @@
+metric,value,unit_or_note
+Sensor readings,100,records
+Encrypted packets,100,packets
+Mean encrypted packet size,908.24,bytes
+Mean encryption API latency,22.622271,ms/packet
+Mean decryption API latency,0.08655,ms/packet
+Transmission events before batching,100,events
+Transmission events after batching,20,events
+Transmission reduction,80.0,%
+Estimated energy saving,73.339,% (simulation estimate)
+Fog accepted,100,packets
+Fog rejected,0,packets
+Fog replay detected,0,packets
+Context state: NORMAL,100,records

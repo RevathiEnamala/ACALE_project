@@ -1,0 +1,1 @@
+"""Fog-side verification components."""

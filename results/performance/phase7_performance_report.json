@@ -1,0 +1,74 @@
+{
+  "project": "ACALE",
+  "phase": 7,
+  "evaluation_scope": "software simulation and local API timing",
+  "sensor_readings_in_csv": 100,
+  "context_classification_state_counts": {
+    "NORMAL": 100
+  },
+  "encrypted_packet_count": 100,
+  "encrypted_packet_size_bytes": {
+    "mean": 908.24,
+    "min": 904,
+    "max": 912,
+    "total": 90824
+  },
+  "cryptographic_performance": {
+    "algorithm": "ChaCha20-Poly1305",
+    "key_derivation": "HKDF-SHA256",
+    "measurement_method": "local wall-clock SecureChannel API timing using time.perf_counter_ns",
+    "encryption_api_latency": {
+      "sample_count": 100,
+      "mean_ms": 22.622271,
+      "median_ms": 20.58695,
+      "p95_ms": 31.60298,
+      "min_ms": 3.5183,
+      "max_ms": 78.3598
+    },
+    "decryption_api_latency": {
+      "sample_count": 100,
+      "mean_ms": 0.08655,
+      "median_ms": 0.0683,
+      "p95_ms": 0.155285,
+      "min_ms": 0.0555,
+      "max_ms": 0.373
+    },
+    "encryption_timing_note": "Includes persistent SQLite nonce allocation and packet envelope construction.",
+    "decryption_timing_note": "Measures authenticated decryption of the actual Phase 4 encrypted packets.",
+    "hardware_energy_measured": false
+  },
+  "transmission_performance": {
+    "phase4_encrypted_packets": 100,
+    "transmissions_before_batching": 100,
+    "transmissions_after_batching": 20,
+    "transmission_reduction_percent": 80.0,
+    "normal_packets_batched": 100,
+    "immediate_packets": 0,
+    "estimated_energy_before_mj": 109.0824,
+    "estimated_energy_after_mj": 29.0824,
+    "estimated_energy_saved_mj": 80.0,
+    "estimated_energy_saving_percent": 73.339,
+    "energy_estimate_status": "illustrative_simulation_estimate_not_hardware_measurement"
+  },
+  "fog_verification_performance": {
+    "packets_checked": 100,
+    "accepted_packets": 100,
+    "rejected_packets": 0,
+    "replayed_packets": 0,
+    "acceptance_percent": 100.0,
+    "rejection_percent": 0.0,
+    "replay_detection_count": 0
+  },
+  "limitations": [
+    "Encryption and decryption timings are local software wall-clock measurements and vary by computer load and hardware.",
+    "Encryption timing includes persistent SQLite nonce allocation and envelope construction.",
+    "Phase 5 energy figures are illustrative simulation estimates, not physical hardware measurements.",
+    "Classification counts are descriptive only; accuracy, precision, recall and F1 require ground-truth labels.",
+    "No physical radio, sensor battery, or agricultural field deployment was measured."
+  ],
+  "generated_charts": [
+    "transmission_comparison.png",
+    "crypto_latency.png",
+    "fog_verification.png"
+  ]
+}
